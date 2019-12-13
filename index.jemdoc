@@ -28,7 +28,7 @@ Advised by Prof. [http://nlp.fudan.edu.cn/xjhuang/ Xuanjing Huang] & Prof. [http
 [https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]
 \n 
 * Equal contribution
-- Learning Sparse Sharing Architectures for Multiple Tasks. \[[https://arxiv.org/pdf/1911.05034.pdf pdf], [https://github.com/txsun1997/slides/blob/master/sparse_sharing.pdf slides]\]
+- Learning Sparse Sharing Architectures for Multiple Tasks. \[[https://arxiv.org/pdf/1911.05034.pdf pdf], [https://txsun1997.github.io/slides/sparse_sharing.pdf slides]\]
 \n
 *Tianxiang Sun*\*, Yunfan Shao\*, Xiaonan Li, Pengfei Liu, Hang Yan, Xipeng Qiu, Xuanjing Huang.
 \n
@@ -41,5 +41,9 @@ Proceedings of the 34th AAAI Conference on Artificial Intelligence, {{<span styl
 - Principal Scholarship in School of Computer Science and Technology at Xidian University (4 times), /undergraduate/, 2017-2019
 - First Prize Scholarship of Xidian University (3 times), /undergraduate/, 2015-2019
 - First Prize in China High School Biology Olympiad, /high school/, Jun. 2014
+
+== Keynotes
+- [https://txsun1997.github.io/slides/entity_linking.pdf A Brief Introduction to Entity Linking], Nov. 2019.
+- [https://txsun1997.github.io/slides/sparse_sharing.pdf Sparse Sharing], Dec. 2019.
 
 
