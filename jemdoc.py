@@ -143,7 +143,7 @@ def standardconf():
   
   [windowtitle]
   # used in header for window title.
-  <title>|</title>
+  <title>Tianxiang Sun's Homepage</title>
 
   [fwtitlestart]
   <div id="fwtitle">
