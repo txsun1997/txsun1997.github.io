@@ -6,7 +6,7 @@
 ~~~
 {}{img_left}{./txsun.jpeg}{photo}{150px}{200px}{}
 {{<span style="color:black;font-size:20pt;font-family:STFangSong">}}*Tianxiang Sun (孙天祥)*{{</span>}}\n
-Ph.D. candidate (1st year)\n
+Ph.D. student (1st year)\n
 [http://nlp.fudan.edu.cn FudanNLP Group]\n
 School of Computer Science, Fudan University\n
 Advised by Prof. [https://xpqiu.github.io/ Xipeng Qiu] & Prof. [http://nlp.fudan.edu.cn/xjhuang/ Xuanjing Huang]\n\n
@@ -23,6 +23,12 @@ My main research interests lie in deep learning and its applications for natural
 [https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]
 \n
 (*: Equal contribution)
+- *[https://arxiv.org/abs/2003.08271 Pre-trained Models for Natural Language Processing: A Survey]*
+\n
+Xipeng Qiu, *Tianxiang Sun*, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang.
+\n 
+/arXiv preprint: 2003.08271/. \[[https://arxiv.org/pdf/2003.08271.pdf pdf]\]
+
 - *[https://txsun1997.github.io/papers/aaai2020.pdf Learning Sparse Sharing Architectures for Multiple Tasks]*
 \n
 *Tianxiang Sun*\*, Yunfan Shao\*, Xiaonan Li, Pengfei Liu, Hang Yan, Xipeng Qiu, Xuanjing Huang.
@@ -36,12 +42,12 @@ In {{<span style="color:LightCoral">}}*AAAI*{{</span>}} 2020 (oral). \[[https://
 
 == Keynotes
 - [https://txsun1997.github.io/slides/sparse_sharing.pdf Sparse Sharing], New York City, Feb. 2020.
-- [https://txsun1997.github.io/slides/bert_as_kb.pdf Implicit Knowledge Base: Pre-trained Language Models], Shanghai, Dec. 2019.
+#- [https://txsun1997.github.io/slides/bert_as_kb.pdf Implicit Knowledge Base: Pre-trained Language Models], Shanghai, Dec. 2019.
 - [https://txsun1997.github.io/slides/entity_linking.pdf A Brief Introduction to Entity Linking], Shanghai, Nov. 2019.
 #- [https://txsun1997.github.io/slides/thesis_mtl_transformer.pdf Oral examination for graduation], Xi'an, May 2019.
 
 == Honors & Awards
-- Outstanding Graduate at Xidian University, /undergraduate/, Jun. 2019
+- Outstanding Graduate of Xidian University, /undergraduate/, Jun. 2019
 - Honorable Mention in MCM\/ICM, /undergraduate/, Feb. 2018
 - First Prize in National MCM (Shanxi division), /undergraduate/, Oct. 2017
 - Principal Scholarship in School of Computer Science and Technology at Xidian University (4 times), /undergraduate/, 2017-2019
