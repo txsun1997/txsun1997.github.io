@@ -12,7 +12,7 @@ School of Computer Science, Fudan University\n
 Advised by Prof. [https://xpqiu.github.io/ Xipeng Qiu] & Prof. [https://scholar.google.com/citations?user=RGsMgZA4H78C Xuanjing Huang]\n\n
 *Contact*: 825 Zhangheng Rd, Shanghai, China 201203\n
 *Email*: {{<span style="font-family:Courier">}}txsun19\[AT\]fudan.edu.cn{{</span>}}
-#\n\n\[[https://txsun1997.github.io/cv.pdf CV]\]
+\n\[[https://txsun1997.github.io/cv.pdf CV]\] \[[https://github.com/txsun1997 Github]\] \[[https://www.linkedin.com/in/tianxiang-sun-801265177/ LinkedIn]\] \[[https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]\]
 ~~~
 
 == Research
@@ -28,20 +28,20 @@ My main research interests lie in deep learning and its applications for natural
 
 *2020*
 
-- *[https://arxiv.org/abs/2003.08271 Pre-trained Models for Natural Language Processing: A Survey]*
+- *Pre-trained Models for Natural Language Processing: A Survey*
 \n
 Xipeng Qiu, *Tianxiang Sun*, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang.
 \n 
-In /Science China Techno. Sci./, 2020. \[[https://arxiv.org/pdf/2003.08271v2.pdf pdf]\]
+/Science China Techno. Sci./, 2020. \[[https://arxiv.org/pdf/2003.08271v2.pdf pdf]\]
 
-- *[https://txsun1997.github.io/papers/aaai2020.pdf Learning Sparse Sharing Architectures for Multiple Tasks]*
+- *Learning Sparse Sharing Architectures for Multiple Tasks*
 \n
 *Tianxiang Sun*\*, Yunfan Shao\*, Xiaonan Li, Pengfei Liu, Hang Yan, Xipeng Qiu, Xuanjing Huang.
 \n
-In /AAAI/ 2020 (oral). \[[https://arxiv.org/pdf/1911.05034.pdf pdf]\]\[[https://txsun1997.github.io/slides/sparse_sharing.pdf slides]\]\[[https://github.com/choosewhatulike/sparse-sharing code]\]
+The Thirty-Fourth AAAI Conference on Artificial Intelligence, /AAAI 2020/. (oral) \[[https://aaai.org/ojs/index.php/AAAI/article/view/6424/6280 pdf]\]\[[https://txsun1997.github.io/slides/sparse_sharing.pdf slides]\]\[[https://github.com/choosewhatulike/sparse-sharing code]\]
 
 == Education & Experience
-- *10\/2019 - present*. Applied Scientist Intern, AWS Shanghai AI Lab. Supervisor: [https://scholar.google.com/citations?user=k0KiE4wAAAAJ&hl=zh-CN Zheng Zhang].
+- *10\/2019 - present*. Applied Scientist Intern, Amazon Shanghai AI Lab. Supervisor: [https://scholar.google.com/citations?user=k0KiE4wAAAAJ&hl=zh-CN Zheng Zhang].
 - *9\/2019 - present*.  Ph.D. student, School of Computer Science, Fudan University.
 - *9\/2015 - 6\/2019*.  B.Eng., School of Computer Science and Technology, Xidian University.# GPA: 3.8\/4.0 (top 1%)
 
