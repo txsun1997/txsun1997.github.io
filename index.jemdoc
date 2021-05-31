@@ -27,6 +27,18 @@ My main research interests lie in deep learning and its applications for natural
 
 *2021*
 
+- *Early Exiting with Ensemble Internal Classifiers*
+\n 
+*Tianxiang Sun*\*, Yunhua Zhou\*, Xiangyang Liu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
+\n 
+/arXiv/: 2105.13792. \[[https://arxiv.org/abs/2105.13792 pdf]\]
+
+- *Accelerating BERT Inference for Sequence Labeling via Early-Exit*
+\n
+Xiaonan Li, Yunfan Shao, *Tianxiang Sun*, Hang Yan, Xipeng Qiu, Xuanjing Huang.
+\n
+/ACL/ 2021. \[[https://arxiv.org/abs/2105.13878 pdf]\]\[[https://github.com/LeeSureman/Sequence-Labeling-Early-Exit code]\]
+
 - *Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa*
 \n
 Junqi Dai, Hang Yan, *Tianxiang Sun*, Pengfei Liu, Xipeng Qiu.
@@ -70,7 +82,7 @@ SCIENCE CHINA Technological Sciences, /SCTS/ 2020. \[[https://txsun1997.github.i
 *Conference Reviewer / PC Member*
 
 - COLING-2020
-- ACL-2021, AAAI-2021, IJCAI-2021
+- ACL-2021, EMNLP-2021, AAAI-2021, IJCAI-2021
 
 == Honors & Awards
 - National Scholarship for Graduate Student, Oct. 2020
