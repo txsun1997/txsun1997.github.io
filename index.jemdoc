@@ -4,7 +4,7 @@
 = \n Tianxiang Sun# {{<font color="LightCoral">}}@/FudanNLP/{{</font>}}
 
 ~~~
-{}{img_left}{./txsun.jpeg}{photo}{150px}{200px}{}
+{}{img_left}{./pictures/txsun.jpeg}{photo}{150px}{200px}{}
 {{<span style="color:black;font-size:20pt;font-family:STFangSong">}}*Tianxiang Sun (孙天祥)*{{</span>}}\n
 Ph.D. student (2nd year)\n
 NLP Group, School of Computer Science, Fudan University\n
@@ -17,8 +17,14 @@ Advised by Prof. [https://xpqiu.github.io/ Xipeng Qiu] & Prof. [https://scholar.
 == Research
 My main research interests lie in deep learning and its applications for natural language processing. In particular, I am interested in
 - neural based multi-task learning for NLP
-- knowledge-aware language understanding
-- graph neural network and its application in NLP
+- knowledge-enhanced language understanding
+- efficient inference for pre-trained language models
+
+== Resources
+~~~
+{}{img_left}{./pictures/ELUE_logo_text.png}{ELUE}{131.5px}{60px}
+*A unified benchmark for efficient NLP is coming soon:)*\n
+~~~
 
 == Publications
 \[[https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]\] \[[https://www.semanticscholar.org/author/Tianxiang-Sun/153345698 Semantic Scholar]\] \[[https://dblp.org/pid/254/1189.html DBLP]\]
@@ -26,6 +32,12 @@ My main research interests lie in deep learning and its applications for natural
 (*: Equal contribution)
 
 *2021*
+
+- *Learning to Teach with Student Feedback*
+\n
+Yitao Liu\*, *Tianxiang Sun*\*, Xipeng Qiu, Xuanjing Huang.
+\n
+/arXiv/: 2109.04641. \[[https://arxiv.org/abs/2109.04641 pdf]\]
 
 - *Early Exiting with Ensemble Internal Classifiers*
 \n 
@@ -81,8 +93,8 @@ SCIENCE CHINA Technological Sciences, /SCTS/ 2020. \[[https://arxiv.org/abs/2003
 == Services
 *Conference Reviewer / PC Member*
 
-- COLING-2020
-- ACL-2021, EMNLP-2021, AAAI-2021, IJCAI-2021
+- *2020:* COLING
+- *2021:* ACL, EMNLP, AAAI, IJCAI
 
 == Honors & Awards
 - National Scholarship for Graduate Student, Oct. 2020
