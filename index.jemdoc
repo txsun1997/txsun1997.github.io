@@ -6,7 +6,7 @@
 ~~~
 {}{img_left}{./pictures/txsun.jpeg}{photo}{150px}{200px}{}
 {{<span style="color:black;font-size:20pt;font-family:STFangSong">}}*Tianxiang Sun (孙天祥)*{{</span>}}\n
-Ph.D. student (2nd year)\n
+Ph.D. student (3rd year)\n
 NLP Group, School of Computer Science, Fudan University\n
 Advised by Prof. [https://xpqiu.github.io/ Xipeng Qiu] & Prof. [https://scholar.google.com/citations?user=RGsMgZA4H78C Xuanjing Huang]\n\n
 *Contact*: 2005 Songhu Rd, Shanghai, China 200438\n
@@ -24,6 +24,12 @@ My main research interests lie in deep learning and its applications for natural
 ~~~
 {}{img_left}{./pictures/ELUE_logo_text.png}{ELUE}{131.5px}{60px}
 *A unified benchmark for efficient NLP is coming soon:)*\n
+~~~
+\n
+~~~
+{}{img_left}{./pictures/EXIT.png}{EarlyExit}{143px}{60px}
+*A curated list of Early Exiting papers, benchmarks, and misc.*\n
+\[[https://github.com/txsun1997/awesome-early-exiting link]\]
 ~~~
 
 == Publications
