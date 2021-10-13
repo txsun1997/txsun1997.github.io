@@ -23,7 +23,8 @@ My main research interests lie in deep learning and its applications for natural
 == Resources
 ~~~
 {}{img_left}{./pictures/ELUE_logo_text.png}{ELUE}{131.5px}{60px}
-*A unified benchmark for efficient NLP is coming soon:)*\n
+*Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*\n
+\[[https://txsun1997.github.io/papers/elue_paper.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]
 ~~~
 \n
 ~~~
@@ -38,6 +39,12 @@ My main research interests lie in deep learning and its applications for natural
 (*: Equal contribution)
 
 *2021*
+
+- *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*
+\n
+Xiangyang Liu\*, *Tianxiang Sun*\*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
+\n 
+/arXiv/. \[[https://txsun1997.github.io/papers/elue_paper.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]
 
 - *Paradigm Shift in Natural Language Processing*
 \n
