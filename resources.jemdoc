@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{resources.html}
+# jemdoc: notime
+
+== Resources
+~~~
+{}{img_left}{./pictures/ELUE_logo_text.png}{ELUE}{131.5px}{60px}
+*[http://eluebenchmark.fastnlp.top/ ELUE: Efficient Language Understanding Evaluation]*\n
+~~~
+\n
+~~~
+{}{img_left}{./pictures/paradigm-shift.png}{Paradigm Shift}{131.5px}{60px}
+*[https://txsun1997.github.io/nlp-paradigm-shift/ Paradigm Shift in Natural Language Processing]*\n
+~~~
+\n
+~~~
+{}{img_left}{./pictures/EXIT.png}{EarlyExit}{131.5px}{60px}
+*[https://github.com/txsun1997/awesome-early-exiting A curated list of Early Exiting papers, benchmarks, and misc.]*\n
+~~~

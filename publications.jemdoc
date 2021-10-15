@@ -1,0 +1,65 @@
+# jemdoc: menu{MENU}{publications.html}
+# jemdoc: notime
+
+== Publications
+\[[https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]\] \[[https://www.semanticscholar.org/author/Tianxiang-Sun/153345698 Semantic Scholar]\] \[[https://dblp.org/pid/254/1189.html DBLP]\]
+\n
+(*: Equal contribution)
+
+*2021*
+
+- *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*
+\n
+Xiangyang Liu\*, *Tianxiang Sun*\*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
+\n 
+/arXiv/. \[[https://txsun1997.github.io/papers/elue_paper.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]
+
+- *Paradigm Shift in Natural Language Processing*
+\n
+*Tianxiang Sun*, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang.
+\n
+/arXiv/: 2109.12575. \[[https://txsun1997.github.io/papers/paradigm_shift.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
+
+- *Learning to Teach with Student Feedback*
+\n
+Yitao Liu\*, *Tianxiang Sun*\*, Xipeng Qiu, Xuanjing Huang.
+\n
+/arXiv/: 2109.04641. \[[https://arxiv.org/abs/2109.04641 pdf]\]
+
+- *Early Exiting with Ensemble Internal Classifiers*
+\n 
+*Tianxiang Sun*\*, Yunhua Zhou\*, Xiangyang Liu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
+\n 
+/arXiv/: 2105.13792. \[[https://arxiv.org/abs/2105.13792 pdf]\]
+
+- *Accelerating BERT Inference for Sequence Labeling via Early-Exit*
+\n
+Xiaonan Li, Yunfan Shao, *Tianxiang Sun*, Hang Yan, Xipeng Qiu, Xuanjing Huang.
+\n
+/ACL/ 2021. \[[https://arxiv.org/abs/2105.13878 pdf]\]\[[https://github.com/LeeSureman/Sequence-Labeling-Early-Exit code]\]
+
+- *Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa*
+\n
+Junqi Dai, Hang Yan, *Tianxiang Sun*, Pengfei Liu, Xipeng Qiu.
+\n
+/NAACL/ 2021. \[[https://arxiv.org/pdf/2104.04986.pdf pdf]\]\[[https://github.com/ROGERDJQ/RoBERTaABSA code]\]
+
+*2020*
+
+- *CoLAKE: Contextualized Language and Knowledge Embedding*
+\n
+*Tianxiang Sun*, Yunfan Shao, Xipeng Qiu, Qipeng Guo, Yaru Hu, Xuanjing Huang, Zheng Zhang.
+\n
+/COLING/ 2020. \[[https://txsun1997.github.io/papers/coling2020.pdf pdf]\]\[[https://txsun1997.github.io/slides/CoLAKE.pdf slides]\]\[[https://github.com/txsun1997/CoLAKE code]\]
+
+- *Pre-trained Models for Natural Language Processing: A Survey* (updated constantly)
+\n
+Xipeng Qiu, *Tianxiang Sun*, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang.
+\n
+SCIENCE CHINA Technological Sciences, /SCTS/ 2020. \[[https://arxiv.org/abs/2003.08271 pdf]\]
+
+- *Learning Sparse Sharing Architectures for Multiple Tasks*
+\n
+*Tianxiang Sun*\*, Yunfan Shao\*, Xiaonan Li, Pengfei Liu, Hang Yan, Xipeng Qiu, Xuanjing Huang.
+\n
+/AAAI/ 2020. (oral) \[[https://txsun1997.github.io/papers/aaai2020.pdf pdf]\]\[[https://txsun1997.github.io/slides/sparse_sharing.pdf slides]\]\[[https://github.com/choosewhatulike/sparse-sharing code]\]

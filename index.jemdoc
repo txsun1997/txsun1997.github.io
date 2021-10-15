@@ -1,4 +1,5 @@
-# jemdoc: nofooter
+# jemdoc: menu{MENU}{index.html} 
+# jemdoc: notime
 # jemdoc: addcss{jemdoc.css}
 
 = \n Tianxiang Sun# {{<font color="LightCoral">}}@/FudanNLP/{{</font>}}
@@ -23,14 +24,17 @@ My main research interests lie in deep learning and its applications for natural
 == Resources
 ~~~
 {}{img_left}{./pictures/ELUE_logo_text.png}{ELUE}{131.5px}{60px}
-*Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*\n
-\[[https://txsun1997.github.io/papers/elue_paper.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]
+*[http://eluebenchmark.fastnlp.top/ ELUE: Efficient Language Understanding Evaluation]*\n
+~~~
+\n
+~~~
+{}{img_left}{./pictures/paradigm-shift.png}{Paradigm Shift}{131.5px}{60px}
+*[https://txsun1997.github.io/nlp-paradigm-shift/ Paradigm Shift in Natural Language Processing]*\n
 ~~~
 \n
 ~~~
 {}{img_left}{./pictures/EXIT.png}{EarlyExit}{131.5px}{60px}
-*A curated list of Early Exiting papers, benchmarks, and misc.*\n
-\[[https://github.com/txsun1997/awesome-early-exiting link]\]
+*[https://github.com/txsun1997/awesome-early-exiting A curated list of Early Exiting papers, benchmarks, and misc.]*\n
 ~~~
 
 == Publications
@@ -103,9 +107,9 @@ SCIENCE CHINA Technological Sciences, /SCTS/ 2020. \[[https://arxiv.org/abs/2003
 
 == Keynotes
 - [https://txsun1997.github.io/slides/CoLAKE.pdf CoLAKE: Contextualized Language and Knowledge Embedding], Online, Dec. 2020.
-#- [https://txsun1997.github.io/slides/PTM-KG.pdf Pre-trained Models and Knowledge], Shanghai, Mar. 2020.
+- [https://txsun1997.github.io/slides/PTM-KG.pdf Pre-trained Models and Knowledge], Shanghai, Mar. 2020.
 - [https://txsun1997.github.io/slides/sparse_sharing.pdf Sparse Sharing], New York City, Feb. 2020.
-#- [https://txsun1997.github.io/slides/bert_as_kb.pdf Implicit Knowledge Base: Pre-trained Language Models], Shanghai, Dec. 2019.
+- [https://txsun1997.github.io/slides/bert_as_kb.pdf Implicit Knowledge Base: Pre-trained Language Models], Shanghai, Dec. 2019.
 - [https://txsun1997.github.io/slides/entity_linking.pdf A Brief Introduction to Entity Linking], Shanghai, Nov. 2019.
 #- [https://txsun1997.github.io/slides/thesis_mtl_transformer.pdf Oral examination for graduation], Xi'an, May 2019.
 

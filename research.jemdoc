@@ -1,0 +1,8 @@
+# jemdoc: menu{MENU}{research.html}
+# jemdoc: notime
+
+== Research
+My main research interests lie in deep learning and its applications for natural language processing. In particular, I am interested in
+- neural based multi-task learning for NLP
+- knowledge-enhanced language understanding
+- efficient inference for pre-trained language models
