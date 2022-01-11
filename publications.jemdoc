@@ -6,6 +6,14 @@
 \n
 (*: Equal contribution)
 
+*2022*
+
+- *Black-Box Tuning for Language-Model-as-a-Service*
+\n 
+*Tianxiang Sun*, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu.
+\n 
+/arXiv/: 2201.03514. \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]
+
 *2021*
 
 - *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*
