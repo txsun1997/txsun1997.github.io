@@ -50,6 +50,12 @@ My main research interests lie in deep learning and its applications for natural
 \n 
 /arXiv/: 2201.03514. \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]\[[https://txsun1997.github.io/slides/bbt.pdf slides]\]
 
+- *A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation*
+\n
+*Tianxiang Sun*, Xiangyang Liu, Wei Zhu, Zhichao Geng, Lingling Wu, Yilong He, Yuan Ni, Guotong Xie, Xuanjing Huang, Xipeng Qiu.
+\n
+/Findings of ACL/ 2022. \[[https://txsun1997.github.io/papers/acl2022.pdf pdf]\]\[[https://github.com/txsun1997/HashEE code]\]
+
 *2021*
 
 - *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*
