@@ -14,6 +14,18 @@
 \n 
 /arXiv/: 2201.03514. \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]\[[https://txsun1997.github.io/slides/bbt.pdf slides]\]
 
+- *Paradigm Shift in Natural Language Processing*
+\n
+*Tianxiang Sun*, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang.
+\n
+/Machine Intelligence Research/ (Invited Paper). \[[https://txsun1997.github.io/papers/paradigm_shift.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
+
+- *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*
+\n
+Xiangyang Liu\*, *Tianxiang Sun*\*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
+\n 
+/NAACL/ 2022. \[[https://txsun1997.github.io/papers/elue_paper.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]\[[https://github.com/fastnlp/ElasticBERT code]\]\[[https://txsun1997.github.io/slides/ELUE.pdf slides]\]
+
 - *A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation*
 \n
 *Tianxiang Sun*, Xiangyang Liu, Wei Zhu, Zhichao Geng, Lingling Wu, Yilong He, Yuan Ni, Guotong Xie, Xuanjing Huang, Xipeng Qiu.
@@ -21,18 +33,6 @@
 /Findings of ACL/ 2022. \[[https://arxiv.org/pdf/2203.01670.pdf pdf]\]\[[https://github.com/txsun1997/HashEE code]\]
 
 *2021*
-
-- *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*
-\n
-Xiangyang Liu\*, *Tianxiang Sun*\*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
-\n 
-/arXiv/: 2110.07038. \[[https://txsun1997.github.io/papers/elue_paper.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]\[[https://github.com/fastnlp/ElasticBERT code]\]\[[https://txsun1997.github.io/slides/ELUE.pdf slides]\]
-
-- *Paradigm Shift in Natural Language Processing*
-\n
-*Tianxiang Sun*, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang.
-\n
-/arXiv/: 2109.12575. \[[https://txsun1997.github.io/papers/paradigm_shift.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
 
 - *Learning to Teach with Student Feedback*
 \n
@@ -66,11 +66,11 @@ Junqi Dai, Hang Yan, *Tianxiang Sun*, Pengfei Liu, Xipeng Qiu.
 \n
 /COLING/ 2020. \[[https://txsun1997.github.io/papers/coling2020.pdf pdf]\]\[[https://github.com/txsun1997/CoLAKE code]\]\[[https://txsun1997.github.io/slides/CoLAKE.pdf slides]\]
 
-- *Pre-trained Models for Natural Language Processing: A Survey* (updated constantly)
+- *Pre-trained Models for Natural Language Processing: A Survey*
 \n
 Xipeng Qiu, *Tianxiang Sun*, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang.
 \n
-SCIENCE CHINA Technological Sciences, /SCTS/ 2020. \[[https://arxiv.org/abs/2003.08271 pdf]\]
+/SCIENCE CHINA Technological Sciences/ (Invited Paper). \[[https://arxiv.org/abs/2003.08271 pdf]\]
 
 - *Learning Sparse Sharing Architectures for Multiple Tasks*
 \n
