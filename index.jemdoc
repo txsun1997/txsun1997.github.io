@@ -44,6 +44,13 @@ My main research interests lie in deep learning and its applications for natural
 
 *2022*
 
+- [https://arxiv.org/pdf/2205.11200.pdf *BBTv2: Pure Black-Box Optimization Can Be Comparable to Gradient Descent for Few-Shot Learning
+*]
+\n 
+*Tianxiang Sun*, Zhengfu He, Hong Qian, Xuanjing Huang, Xipeng Qiu.
+\n 
+*arXiv: 2205.11200* \[[https://arxiv.org/pdf/2205.11200.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]
+
 - [https://arxiv.org/pdf/2201.03514.pdf *Black-Box Tuning for Language-Model-as-a-Service*]
 \n 
 *Tianxiang Sun*, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu.
@@ -62,11 +69,11 @@ Xiangyang Liu\*, *Tianxiang Sun*\*, Junliang He, Lingling Wu, Xinyu Zhang, Hao J
 \n 
 *NAACL 2022* \[[https://arxiv.org/pdf/2110.07038.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]\[[https://github.com/fastnlp/ElasticBERT code]\]\[[https://txsun1997.github.io/slides/ELUE.pdf slides]\]
 
-- [https://arxiv.org/pdf/2203.01670.pdf *A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation*]
+- [https://aclanthology.org/2022.findings-acl.189.pdf *A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation*]
 \n
 *Tianxiang Sun*, Xiangyang Liu, Wei Zhu, Zhichao Geng, Lingling Wu, Yilong He, Yuan Ni, Guotong Xie, Xuanjing Huang, Xipeng Qiu.
 \n
-*ACL 2022* (Findings) \[[https://arxiv.org/pdf/2203.01670.pdf pdf]\]\[[https://github.com/txsun1997/HashEE code]\]
+*ACL 2022* (Findings) \[[https://aclanthology.org/2022.findings-acl.189.pdf pdf]\]\[[https://github.com/txsun1997/HashEE code]\]
 
 *2021*
 
@@ -82,31 +89,31 @@ Yitao Liu\*, *Tianxiang Sun*\*, Xipeng Qiu, Xuanjing Huang.
 \n 
 *arXiv: 2105.13792* \[[https://arxiv.org/pdf/2105.13792.pdf pdf]\]
 
-- [https://arxiv.org/pdf/2105.13878.pdf *Accelerating BERT Inference for Sequence Labeling via Early-Exit*]
+- [https://aclanthology.org/2021.acl-long.16.pdf *Accelerating BERT Inference for Sequence Labeling via Early-Exit*]
 \n
 Xiaonan Li, Yunfan Shao, *Tianxiang Sun*, Hang Yan, Xipeng Qiu, Xuanjing Huang.
 \n
-*ACL 2021* \[[https://arxiv.org/pdf/2105.13878.pdf pdf]\]\[[https://github.com/LeeSureman/Sequence-Labeling-Early-Exit code]\]
+*ACL 2021* \[[https://aclanthology.org/2021.acl-long.16.pdf pdf]\]\[[https://github.com/LeeSureman/Sequence-Labeling-Early-Exit code]\]
 
-- [https://arxiv.org/pdf/2104.04986.pdf *Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa*]
+- [https://aclanthology.org/2021.naacl-main.146.pdf *Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa*]
 \n
 Junqi Dai, Hang Yan, *Tianxiang Sun*, Pengfei Liu, Xipeng Qiu.
 \n
-*NAACL 2021* \[[https://arxiv.org/pdf/2104.04986.pdf pdf]\]\[[https://github.com/ROGERDJQ/RoBERTaABSA code]\]
+*NAACL 2021* \[[https://aclanthology.org/2021.naacl-main.146.pdf pdf]\]\[[https://github.com/ROGERDJQ/RoBERTaABSA code]\]
 
 *2020*
 
-- [https://txsun1997.github.io/papers/coling2020.pdf *CoLAKE: Contextualized Language and Knowledge Embedding*]
+- [https://aclanthology.org/2020.coling-main.327.pdf *CoLAKE: Contextualized Language and Knowledge Embedding*]
 \n
 *Tianxiang Sun*, Yunfan Shao, Xipeng Qiu, Qipeng Guo, Yaru Hu, Xuanjing Huang, Zheng Zhang.
 \n
-*COLING 2020* \[[https://txsun1997.github.io/papers/coling2020.pdf pdf]\]\[[https://github.com/txsun1997/CoLAKE code]\]\[[https://txsun1997.github.io/slides/CoLAKE.pdf slides]\]
+*COLING 2020* \[[https://aclanthology.org/2020.coling-main.327.pdf pdf]\]\[[https://github.com/txsun1997/CoLAKE code]\]\[[https://txsun1997.github.io/slides/CoLAKE.pdf slides]\]
 
-- [https://arxiv.org/pdf/2003.08271.pdf *Pre-trained Models for Natural Language Processing: A Survey*]
+- [https://link.springer.com/content/pdf/10.1007/s11431-020-1647-3.pdf *Pre-trained Models for Natural Language Processing: A Survey*]
 \n
 Xipeng Qiu, *Tianxiang Sun*, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang.
 \n
-*SCIENCE CHINA Technological Sciences* ({{<font color="LightCoral">}}Invited Paper{{</font>}}) \[[https://arxiv.org/pdf/2003.08271.pdf pdf]\]
+*SCIENCE CHINA Technological Sciences* ({{<font color="LightCoral">}}Invited Paper{{</font>}}) \[[https://link.springer.com/content/pdf/10.1007/s11431-020-1647-3.pdf pdf]\]
 
 - [https://txsun1997.github.io/papers/aaai2020.pdf *Learning Sparse Sharing Architectures for Multiple Tasks*]
 \n
