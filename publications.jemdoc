@@ -21,11 +21,11 @@
 \n 
 *ICML 2022* \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]\[[https://txsun1997.github.io/slides/bbt.pdf slides]\]
 
-- [https://arxiv.org/pdf/2109.12575.pdf *Paradigm Shift in Natural Language Processing*]
+- [https://link.springer.com/content/pdf/10.1007/s11633-022-1331-6.pdf *Paradigm Shift in Natural Language Processing*]
 \n
 *Tianxiang Sun*, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang.
 \n
-*Machine Intelligence Research* ({{<font color="LightCoral">}}Invited Paper{{</font>}}) \[[https://arxiv.org/pdf/2109.12575.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
+*Machine Intelligence Research* ({{<font color="LightCoral">}}Invited Paper{{</font>}}) \[[https://link.springer.com/content/pdf/10.1007/s11633-022-1331-6.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
 
 - [https://arxiv.org/pdf/2110.07038.pdf *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*]
 \n
@@ -59,7 +59,7 @@ Xiaonan Li, Yunfan Shao, *Tianxiang Sun*, Hang Yan, Xipeng Qiu, Xuanjing Huang.
 \n
 *ACL 2021* \[[https://aclanthology.org/2021.acl-long.16.pdf pdf]\]\[[https://github.com/LeeSureman/Sequence-Labeling-Early-Exit code]\]
 
-- [https://aclanthology.org/2021.naacl-main.146.pdf *Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa*]
+- [https://aclanthology.org/2021.naacl-main.146.pdf *Does Syntax Matter? A Strong Baseline for Aspect-Based Sentiment Analysis with RoBERTa*]
 \n
 Junqi Dai, Hang Yan, *Tianxiang Sun*, Pengfei Liu, Xipeng Qiu.
 \n

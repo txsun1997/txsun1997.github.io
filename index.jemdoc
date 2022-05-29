@@ -12,14 +12,15 @@ NLP Group, School of Computer Science, Fudan University\n
 Advised by Prof. [https://xpqiu.github.io/ Xipeng Qiu] & Prof. [https://nlp.fudan.edu.cn/28702/list.htm Xuanjing Huang]\n\n
 *Contact*: 2005 Songhu Rd, Shanghai, China 200438\n
 *Email*: {{<span style="font-family:Courier">}}txsun19\[AT\]fudan.edu.cn{{</span>}}
-\n\n\[[https://txsun1997.github.io/cv.pdf CV]\] \[[https://github.com/txsun1997 Github]\] \[[https://www.linkedin.com/in/tianxiang-sun-801265177/ LinkedIn]\] \[[https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]\]
+\n\n\[[https://txsun1997.github.io/cv.pdf CV]\] \[[https://github.com/txsun1997 Github]\] \[[https://scholar.google.com/citations?user=puHFkM0AAAAJ Google Scholar]\]
 ~~~
 
 == Research
-My main research interests lie in deep learning and its applications for natural language processing. In particular, I am interested in
-- neural based multi-task learning for NLP
+My main research interests lie in machine learning and its applications for natural language processing. In particular, I am interested in
+- parameter-efficient learning methods
+- black-box optimization for large-scale language models
+- efficient inference for pre-trained models
 - knowledge-enhanced language understanding
-- efficient inference for pre-trained language models
 
 == Resources
 ~~~
@@ -57,11 +58,11 @@ My main research interests lie in deep learning and its applications for natural
 \n 
 *ICML 2022* \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]\[[https://txsun1997.github.io/slides/bbt.pdf slides]\]
 
-- [https://arxiv.org/pdf/2109.12575.pdf *Paradigm Shift in Natural Language Processing*]
+- [https://link.springer.com/content/pdf/10.1007/s11633-022-1331-6.pdf *Paradigm Shift in Natural Language Processing*]
 \n
 *Tianxiang Sun*, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang.
 \n
-*Machine Intelligence Research* ({{<font color="LightCoral">}}Invited Paper{{</font>}}) \[[https://arxiv.org/pdf/2109.12575.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
+*Machine Intelligence Research* ({{<font color="LightCoral">}}Invited Paper{{</font>}}) \[[https://link.springer.com/content/pdf/10.1007/s11633-022-1331-6.pdf pdf]\]\[[https://txsun1997.github.io/nlp-paradigm-shift/ website]\]\[[https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf slides]\]
 
 - [https://arxiv.org/pdf/2110.07038.pdf *Towards Efficient NLP: A Standard Evaluation and A Strong Baseline*]
 \n
@@ -95,7 +96,7 @@ Xiaonan Li, Yunfan Shao, *Tianxiang Sun*, Hang Yan, Xipeng Qiu, Xuanjing Huang.
 \n
 *ACL 2021* \[[https://aclanthology.org/2021.acl-long.16.pdf pdf]\]\[[https://github.com/LeeSureman/Sequence-Labeling-Early-Exit code]\]
 
-- [https://aclanthology.org/2021.naacl-main.146.pdf *Does syntax matter? A strong baseline for Aspect-based Sentiment Analysis with RoBERTa*]
+- [https://aclanthology.org/2021.naacl-main.146.pdf *Does Syntax Matter? A Strong Baseline for Aspect-Based Sentiment Analysis with RoBERTa*]
 \n
 Junqi Dai, Hang Yan, *Tianxiang Sun*, Pengfei Liu, Xipeng Qiu.
 \n
