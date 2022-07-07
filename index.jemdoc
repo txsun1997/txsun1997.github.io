@@ -24,6 +24,11 @@ My main research interests lie in machine learning and its applications for natu
 
 == Resources
 ~~~
+{}{img_left}{./pictures/LMaaS.png}{LMaaS}{131.5px}{60px}
+*[https://github.com/txsun1997/LMaaS-Papers Language-Model-as-a-Service (LMaaS) Paper List]*\n
+~~~
+\n
+~~~
 {}{img_left}{./pictures/ELUE_logo_text.png}{ELUE}{131.5px}{60px}
 *[http://eluebenchmark.fastnlp.top/ ELUE: Efficient Language Understanding Evaluation]*\n
 ~~~
@@ -56,7 +61,7 @@ My main research interests lie in machine learning and its applications for natu
 \n 
 *Tianxiang Sun*, Yunfan Shao, Hong Qian, Xuanjing Huang, Xipeng Qiu.
 \n 
-*ICML 2022* \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]\[[https://txsun1997.github.io/slides/bbt.pdf slides]\]
+*ICML 2022* (spotlight) \[[https://arxiv.org/pdf/2201.03514.pdf pdf]\]\[[https://github.com/txsun1997/Black-Box-Tuning code]\]\[[https://txsun1997.github.io/slides/bbt.pdf slides]\]
 
 - [https://link.springer.com/content/pdf/10.1007/s11633-022-1331-6.pdf *Paradigm Shift in Natural Language Processing*]
 \n
@@ -68,7 +73,7 @@ My main research interests lie in machine learning and its applications for natu
 \n
 Xiangyang Liu\*, *Tianxiang Sun*\*, Junliang He, Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu.
 \n 
-*NAACL 2022* \[[https://arxiv.org/pdf/2110.07038.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]\[[https://github.com/fastnlp/ElasticBERT code]\]\[[https://txsun1997.github.io/slides/ELUE.pdf slides]\]
+*NAACL 2022* (oral) \[[https://arxiv.org/pdf/2110.07038.pdf pdf]\]\[[http://eluebenchmark.fastnlp.top/ website]\]\[[https://github.com/fastnlp/ElasticBERT code]\]\[[https://txsun1997.github.io/slides/ELUE.pdf slides]\]
 
 - [https://aclanthology.org/2022.findings-acl.189.pdf *A Simple Hash-Based Early Exiting Approach For Language Understanding and Generation*]
 \n
@@ -142,7 +147,7 @@ Xipeng Qiu, *Tianxiang Sun*, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang.
 
 - *2020:* COLING
 - *2021:* ACL, EMNLP, AAAI, IJCAI
-- *2022:* NeurIPS, ICML, ACL, AAAI, IJCAI
+- *2022:* NeurIPS, ICML, ACL, EMNLP, COLING, AAAI, IJCAI
 
 == Honors & Awards
 - National Scholarship for Graduate Student, Oct. 2020
