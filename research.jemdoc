@@ -1,9 +1,0 @@
-# jemdoc: menu{MENU}{research.html}
-# jemdoc: notime
-
-== Research
-My main research interests lie in machine learning and its applications for natural language processing. In particular, I am interested in
-- parameter-efficient learning methods
-- black-box optimization for large-scale language models
-- efficient inference for pre-trained models
-- knowledge-enhanced language understanding
