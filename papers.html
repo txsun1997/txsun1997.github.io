@@ -1,0 +1,556 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Papers</title>
+
+    <meta name="author" content="Tianxiang Sun">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" type="image/jpg" href="images/fudan_icon.jpg">
+
+    <script type="text/javascript">
+
+        function display(id) {
+            var traget = document.getElementById(id);
+            if (traget.style.display == "none") {
+                traget.style.display = "";
+            } else {
+                traget.style.display = "none";
+            }
+        }  
+    </script>
+</head>
+
+<body>
+    <table
+        style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+            <tr style="padding:0px">
+                <td style="padding:0px">
+                    <name>Papers</name>
+                    <p>
+                        (*: Equal contribution)
+                    </p>
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>2022</heading>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2205.11200">
+                                                <papertitle>BBTv2: Pure Black-Box Optimization Can Be Comparable to
+                                                    Gradient Descent for Few-Shot Learning</papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>, Zhengfu He, Hong Qian, Xuanjing Huang,
+                                            Xipeng Qiu
+                                            <br>
+                                            arXiv 2205.11200
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2205.11200.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_bbtv2');">abstract</a>
+                                            /
+                                            <a href="https://github.com/txsun1997/Black-Box-Tuning">code</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/slides/bbt.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_bbtv2" style="display: none;">
+                                                Black-Box Tuning (BBT) is a derivative-free approach to optimize
+                                                continuous prompt tokens prepended to the input of language models.
+                                                Although BBT has achieved comparable performance to full model tuning on
+                                                simple classification tasks under few-shot settings, it requires
+                                                pre-trained prompt embedding to match model tuning on hard tasks (e.g.,
+                                                entailment tasks), and therefore does not completely get rid of the
+                                                dependence on gradients. In this paper we present BBTv2, a pure
+                                                black-box optimization approach that can drive language models to
+                                                achieve comparable results to gradient-based optimization. In
+                                                particular, we prepend continuous prompt tokens to every layer of the
+                                                language model and propose a divide-and-conquer algorithm to alternately
+                                                optimize the prompt tokens at different layers. For the optimization at
+                                                each layer, we perform derivative-free optimization in a low-dimensional
+                                                subspace, which is then randomly projected to the original prompt
+                                                parameter space. Experimental results show that BBTv2 not only
+                                                outperforms BBT by a large margin, but also achieves comparable or even
+                                                better performance than full model tuning and state-of-the-art
+                                                parameter-efficient methods (e.g., Adapter, LoRA, BitFit, etc.) under
+                                                few-shot learning settings, while maintaining much fewer tunable
+                                                parameters.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://proceedings.mlr.press/v162/sun22e.html">
+                                                <papertitle>Black-Box Tuning for Language-Model-as-a-Service
+                                                </papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>, Yunfan Shao, Hong Qian, Xuanjing Huang,
+                                            Xipeng Qiu
+                                            <br>
+                                            <em>ICML</em> 2022 &nbsp <font color="red"><strong>(Spotlight)</strong>
+                                            </font>
+                                            <br>
+                                            <a href="https://proceedings.mlr.press/v162/sun22e/sun22e.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_bbt');">abstract</a>
+                                            /
+                                            <a href="https://github.com/txsun1997/Black-Box-Tuning">code</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/slides/bbt.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_bbt" style="display: none;">
+                                                Extremely large pre-trained language models (PTMs) such as GPT-3 are
+                                                usually released as a service. It allows users to design task-specific
+                                                prompts to query the PTMs through some black-box APIs. In such a
+                                                scenario, which we call Language-Model-as-a-Service (LMaaS), the
+                                                gradients of PTMs are usually unavailable. Can we optimize the task
+                                                prompts by only accessing the model inference APIs? This paper proposes
+                                                the black-box tuning framework to optimize the continuous prompt
+                                                prepended to the input text via derivative-free optimization. Instead of
+                                                optimizing in the original high-dimensional prompt space, which is
+                                                intractable for traditional derivative-free optimization, we perform
+                                                optimization in a randomly generated subspace due to the low intrinsic
+                                                dimensionality of large PTMs. The experimental results show that the
+                                                black-box tuning with RoBERTa on a few labeled samples not only
+                                                significantly outperforms manual prompt and GPT-3’s in-context learning,
+                                                but also surpasses the gradient-based counterparts, i.e., prompt tuning
+                                                and full model tuning.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://link.springer.com/article/10.1007/s11633-022-1331-6">
+                                                <papertitle>Paradigm Shift in Natural Language Processing</papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>, Xiangyang Liu, Xipeng Qiu, Xuanjing Huang
+                                            <br>
+                                            <em>Machine Intelligence Research</em> 2022 &nbsp <font color="red">
+                                                <strong>(Invited Paper)</strong>
+                                            </font>
+                                            <br>
+                                            <a
+                                                href="https://link.springer.com/content/pdf/10.1007/s11633-022-1331-6.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_paradigm');">abstract</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/nlp-paradigm-shift/">project</a>
+                                            /
+                                            <a
+                                                href="https://txsun1997.github.io/slides/nlp-paradigm-shift.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_paradigm" style="display: none;">
+                                                In the era of deep learning, modeling for most natural language
+                                                processing (NLP) tasks has converged into several mainstream paradigms.
+                                                For example, we usually adopt the sequence labeling paradigm to solve a
+                                                bundle of tasks such as POS-tagging, named entity recognition (NER), and
+                                                chunking, and adopt the classification paradigm to solve tasks like
+                                                sentiment analysis. With the rapid progress of pre-trained language
+                                                models, recent years have witnessed a rising trend of paradigm shift,
+                                                which is solving one NLP task in a new paradigm by reformulating the
+                                                task. The paradigm shift has achieved great success on many tasks and is
+                                                becoming a promising way to improve model performance. Moreover, some of
+                                                these paradigms have shown great potential to unify a large number of
+                                                NLP tasks, making it possible to build a single model to handle diverse
+                                                tasks. In this paper, we review such phenomenon of paradigm shifts in
+                                                recent years, highlighting several paradigms that have the potential to
+                                                solve different NLP tasks.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://aclanthology.org/2022.naacl-main.240/">
+                                                <papertitle>Towards Efficient NLP: A Standard Evaluation and A Strong
+                                                    Baseline</papertitle>
+                                            </a>
+                                            <br>
+                                            Xiangyang Liu*, <strong>Tianxiang Sun</strong>*, Junliang He, Jiawen Wu,
+                                            Lingling Wu, Xinyu Zhang, Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu
+                                            <br>
+                                            <em>NAACL</em> 2022 &nbsp <font color="red"><strong>(Oral
+                                                    Presentation)</strong></font>
+                                            <br>
+                                            <a href="https://aclanthology.org/2022.naacl-main.240.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_elue');">abstract</a>
+                                            /
+                                            <a href="https://github.com/fastnlp/ElasticBERT">code</a>
+                                            /
+                                            <a href="http://eluebenchmark.fastnlp.top/">benchmark</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/slides/ELUE.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_elue" style="display: none;">
+                                                Supersized pre-trained language models have pushed the accuracy of
+                                                various natural language processing (NLP) tasks to a new
+                                                state-of-the-art (SOTA). Rather than pursuing the reachless SOTA
+                                                accuracy, more and more researchers start paying attention to model
+                                                efficiency and usability. Different from accuracy, the metric for
+                                                efficiency varies across different studies, making them hard to be
+                                                fairly compared. To that end, this work presents ELUE (Efficient
+                                                Language Understanding Evaluation), a standard evaluation, and a public
+                                                leaderboard for efficient NLP models. ELUE is dedicated to depicting the
+                                                Pareto Frontier for various language understanding tasks, such that it
+                                                can tell whether and how much a method achieves Pareto improvement.
+                                                Along with the benchmark, we also release a strong baseline,
+                                                ElasticBERT, which allows BERT to exit at any layer in both static and
+                                                dynamic ways. We demonstrate the ElasticBERT, despite its simplicity,
+                                                outperforms or performs on par with SOTA compressed and early exiting
+                                                models. With ElasticBERT, the proposed ELUE has a strong Pareto Frontier
+                                                and makes a better evaluation for efficient NLP models.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://aclanthology.org/2022.findings-acl.189/">
+                                                <papertitle>A Simple Hash-Based Early Exiting Approach For Language
+                                                    Understanding and Generation</papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>, Xiangyang Liu, Wei Zhu, Zhichao Geng,
+                                            Lingling Wu, Yilong He, Yuan Ni, Guotong Xie, Xuanjing Huang, Xipeng Qiu
+                                            <br>
+                                            <em>ACL (Findings)</em> 2022
+                                            <br>
+                                            <a href="https://aclanthology.org/2022.findings-acl.189.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_hashee');">abstract</a>
+                                            /
+                                            <a href="https://github.com/txsun1997/HashEE">code</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/slides/HashEE.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_hashee" style="display: none;">
+                                                Early exiting allows instances to exit at different layers according to
+                                                the estimation of difficulty.Previous works usually adopt heuristic
+                                                metrics such as the entropy of internal outputs to measure instance
+                                                difficulty, which suffers from generalization and threshold-tuning. In
+                                                contrast, learning to exit, or learning to predict instance difficulty
+                                                is a more appealing way. Though some effort has been devoted to
+                                                employing such “learn-to-exit” modules, it is still unknown whether and
+                                                how well the instance difficulty can be learned. As a response, we first
+                                                conduct experiments on the learnability of instance difficulty, which
+                                                demonstrates that modern neural models perform poorly on predicting
+                                                instance difficulty. Based on this observation, we propose a
+                                                simple-yet-effective Hash-based Early Exiting approach HashEE) that
+                                                replaces the learn-to-exit modules with hash functions to assign each
+                                                token to a fixed exiting layer. Different from previous methods, HashEE
+                                                requires no internal classifiers nor extra parameters, and therefore is
+                                                more efficient.HashEE can be used in various tasks (including language
+                                                understanding and generation) and model architectures such as seq2seq
+                                                models. Experimental results on classification, regression, and
+                                                generation tasks demonstrate that HashEE can achieve higher performance
+                                                with fewer FLOPs and inference time compared with previous
+                                                state-of-the-art early exiting methods.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>2021</heading>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2109.04641">
+                                                <papertitle>Learning to Teach with Student Feedback</papertitle>
+                                            </a>
+                                            <br>
+                                            Yitao Liu*, <strong>Tianxiang Sun</strong>*, Xipeng Qiu, Xuanjing Huang
+                                            <br>
+                                            arXiv 2109.04641
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2109.04641.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_ikd');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_ikd" style="display: none;">
+                                                Knowledge distillation (KD) has gained much attention due to its
+                                                effectiveness in compressing large-scale pre-trained models. In typical
+                                                KD methods, the small student model is trained to match the soft targets
+                                                generated by the big teacher model. However, the interaction between
+                                                student and teacher is one-way. The teacher is usually fixed once
+                                                trained, resulting in static soft targets to be distilled. This one-way
+                                                interaction leads to the teacher's inability to perceive the
+                                                characteristics of the student and its training progress. To address
+                                                this issue, we propose Interactive Knowledge Distillation (IKD), which
+                                                also allows the teacher to learn to teach from the feedback of the
+                                                student. In particular, IKD trains the teacher model to generate
+                                                specific soft target at each training step for a certain student. Joint
+                                                optimization for both teacher and student is achieved by two iterative
+                                                steps: a course step to optimize student with the soft target of
+                                                teacher, and an exam step to optimize teacher with the feedback of
+                                                student. IKD is a general framework that is orthogonal to most existing
+                                                knowledge distillation methods. Experimental results show that IKD
+                                                outperforms traditional KD methods on various NLP tasks.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2105.13792">
+                                                <papertitle>Early Exiting with Ensemble Internal Classifiers
+                                                </papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>*, Yunhua Zhou*, Xiangyang Liu, Xinyu Zhang,
+                                            Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu
+                                            <br>
+                                            arXiv 2105.13792
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2105.13792.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_ensemble');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_ensemble" style="display: none;">
+                                                As a simple technique to accelerate inference of large-scale pre-trained
+                                                models, early exiting has gained much attention in the NLP community. It
+                                                allows samples to exit early at internal classifiers without passing
+                                                through the entire model. Most existing work usually trains the internal
+                                                classifiers independently and employs an exiting strategy to decide
+                                                whether or not to exit based on the confidence of the current internal
+                                                classifier. However, none of these works takes full advantage of the
+                                                fact that the internal classifiers are trained to solve the same task
+                                                therefore can be used to construct an ensemble. In this paper, we show
+                                                that a novel objective function for the training of the ensemble
+                                                internal classifiers can be naturally induced from the perspective of
+                                                ensemble learning and information theory. The proposed training
+                                                objective consists of two terms: one for accuracy and the other for the
+                                                diversity of the internal classifiers. In contrast, the objective used
+                                                in prior work is exactly the accuracy term of our training objective
+                                                therefore only optimizes the accuracy but not diversity. Further, we
+                                                propose a simple voting-based strategy that considers predictions of all
+                                                the past internal classifiers to infer the correct label and decide
+                                                whether to exit. Experimental results on various NLP tasks show that our
+                                                proposed objective function and voting-based strategy can achieve better
+                                                accuracy-speed trade-offs.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://aclanthology.org/2021.acl-long.16/">
+                                                <papertitle>Accelerating BERT Inference for Sequence Labeling via
+                                                    Early-Exit</papertitle>
+                                            </a>
+                                            <br>
+                                            Xiaonan Li, Yunfan Shao, <strong>Tianxiang Sun</strong>, Hang Yan, Xipeng
+                                            Qiu, Xuanjing Huang
+                                            <br>
+                                            <em>ACL</em> 2021
+                                            <br>
+                                            <a href="https://aclanthology.org/2021.acl-long.16.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_tokee');">abstract</a>
+                                            /
+                                            <a
+                                                href="https://github.com/LeeSureman/Sequence-Labeling-Early-Exit">code</a>
+                                            <p></p>
+                                            <div id="abs_tokee" style="display: none;">
+                                                Both performance and efficiency are crucial factors for sequence
+                                                labeling tasks in many real-world scenarios. Although the pre-trained
+                                                models (PTMs) have significantly improved the performance of various
+                                                sequence labeling tasks, their computational cost is expensive. To
+                                                alleviate this problem, we extend the recent successful early-exit
+                                                mechanism to accelerate the inference of PTMs for sequence labeling
+                                                tasks. However, existing early-exit mechanisms are specifically designed
+                                                for sequence-level tasks, rather than sequence labeling. In this paper,
+                                                we first propose a simple extension of sentence-level early-exit for
+                                                sequence labeling tasks. To further reduce the computational cost, we
+                                                also propose a token-level early-exit mechanism that allows partial
+                                                tokens to exit early at different layers. Considering the local
+                                                dependency inherent in sequence labeling, we employed a window-based
+                                                criterion to decide for a token whether or not to exit. The token-level
+                                                early-exit brings the gap between training and inference, so we
+                                                introduce an extra self-sampling fine-tuning stage to alleviate it. The
+                                                extensive experiments on three popular sequence labeling tasks show that
+                                                our approach can save up to 66%∼75% inference cost with minimal
+                                                performance degradation. Compared with competitive compressed models
+                                                such as DistilBERT, our approach can achieve better performance under
+                                                the same speed-up ratios of 2×, 3×, and 4×.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://aclanthology.org/2021.naacl-main.146/">
+                                                <papertitle>Does syntax matter? A strong baseline for Aspect-based
+                                                    Sentiment Analysis with RoBERTa</papertitle>
+                                            </a>
+                                            <br>
+                                            Junqi Dai, Hang Yan, <strong>Tianxiang Sun</strong>, Pengfei Liu, Xipeng Qiu
+                                            <br>
+                                            <em>NAACL</em> 2021
+                                            <br>
+                                            <a href="https://aclanthology.org/2021.naacl-main.146.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_absa');">abstract</a>
+                                            /
+                                            <a href="https://github.com/ROGERDJQ/RoBERTaABSA">code</a>
+                                            /
+                                            <a href="https://rogerdjq.github.io/naacl.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_absa" style="display: none;">
+                                                Aspect-based Sentiment Analysis (ABSA), aiming at predicting the
+                                                polarities for aspects, is a fine-grained task in the field of sentiment
+                                                analysis. Previous work showed syntactic information, e.g. dependency
+                                                trees, can effectively improve the ABSA performance. Recently,
+                                                pre-trained models (PTMs) also have shown their effectiveness on ABSA.
+                                                Therefore, the question naturally arises whether PTMs contain sufficient
+                                                syntactic information for ABSA so that we can obtain a good ABSA model
+                                                only based on PTMs. In this paper, we firstly compare the induced trees
+                                                from PTMs and the dependency parsing trees on several popular models for
+                                                the ABSA task, showing that the induced tree from fine-tuned RoBERTa
+                                                (FT-RoBERTa) outperforms the parser-provided tree. The further analysis
+                                                experiments reveal that the FT-RoBERTa Induced Tree is more
+                                                sentiment-word-oriented and could benefit the ABSA task. The experiments
+                                                also show that the pure RoBERTa-based model can outperform or
+                                                approximate to the previous SOTA performances on six datasets across
+                                                four languages since it implicitly incorporates the task-oriented
+                                                syntactic information.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>2020</heading>
+                                    <ul>
+                                        <li>
+                                            <a href="https://link.springer.com/article/10.1007/s11431-020-1647-3">
+                                                <papertitle>Pre-trained Models for Natural Language Processing: A Survey
+                                                </papertitle>
+                                            </a>
+                                            <br>
+                                            Xipeng Qiu, <strong>Tianxiang Sun</strong>, Yige Xu, Yunfan Shao, Ning Dai,
+                                            Xuanjing Huang
+                                            <br>
+                                            <em>SCIENCE CHINA Technological Sciences</em> 2020 &nbsp <font color="red">
+                                                <strong>(Invited Paper, Most Influential Paper of SCTS in 2020)</strong>
+                                            </font>
+                                            <br>
+                                            <a
+                                                href="https://link.springer.com/content/pdf/10.1007/s11431-020-1647-3.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_ptmsurvey');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_ptmsurvey" style="display: none;">
+                                                Recently, the emergence of pre-trained models (PTMs) has brought natural
+                                                language processing (NLP) to a new era. In this survey, we provide a
+                                                comprehensive review of PTMs for NLP. We first briefly introduce
+                                                language representation learning and its research progress. Then we
+                                                systematically categorize existing PTMs based on a taxonomy from four
+                                                different perspectives. Next, we describe how to adapt the knowledge of
+                                                PTMs to downstream tasks. Finally, we outline some potential directions
+                                                of PTMs for future research. This survey is purposed to be a hands-on
+                                                guide for understanding, using, and developing PTMs for various NLP
+                                                tasks.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://aclanthology.org/2020.coling-main.327/">
+                                                <papertitle>CoLAKE: Contextualized Language and Knowledge Embedding
+                                                </papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>, Yunfan Shao, Xipeng Qiu, Qipeng Guo, Yaru
+                                            Hu, Xuanjing Huang, Zheng
+                                            Zhang
+                                            <br>
+                                            <em>COLING</em> 2020
+                                            <br>
+                                            <a href="https://aclanthology.org/2020.coling-main.327.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_colake');">abstract</a>
+                                            /
+                                            <a href="https://github.com/txsun1997/CoLAKE">code</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/slides/CoLAKE.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_colake" style="display: none;">
+                                                With the emerging branch of incorporating factual knowledge into
+                                                pre-trained language models such as BERT, most existing models consider
+                                                shallow, static, and separately pre-trained entity embeddings, which
+                                                limits the performance gains of these models. Few works explore the
+                                                potential of deep contextualized knowledge representation when injecting
+                                                knowledge. In this paper, we propose the Contextualized Language and
+                                                Knowledge Embedding (CoLAKE), which jointly learns contextualized
+                                                representation for both language and knowledge with the extended MLM
+                                                objective. Instead of injecting only entity embeddings, CoLAKE extracts
+                                                the knowledge context of an entity from large-scale knowledge bases. To
+                                                handle the heterogeneity of knowledge context and language context, we
+                                                integrate them in a unified data structure, word-knowledge graph (WK
+                                                graph). CoLAKE is pre-trained on large-scale WK graphs with the modified
+                                                Transformer encoder. We conduct experiments on knowledge-driven tasks,
+                                                knowledge probing tasks, and language understanding tasks. Experimental
+                                                results show that CoLAKE outperforms previous counterparts on most of
+                                                the tasks. Besides, CoLAKE achieves surprisingly high performance on our
+                                                synthetic task called word-knowledge graph completion, which shows the
+                                                superiority of simultaneously contextualizing language and knowledge
+                                                representation.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://ojs.aaai.org//index.php/AAAI/article/view/6424">
+                                                <papertitle>Learning Sparse Sharing Architectures for Multiple Tasks
+                                                </papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>*, Yunfan Shao*, Xiaonan Li, Pengfei Liu, Hang
+                                            Yan, Xipeng Qiu, Xuanjing
+                                            Huang
+                                            <br>
+                                            <em>AAAI</em> 2020 &nbsp <font color="red"><strong>(Oral
+                                                    Presentation)</strong></font>
+                                            <br>
+                                            <a href="https://txsun1997.github.io/papers/aaai2020.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_sparsesharing');">abstract</a>
+                                            /
+                                            <a href="https://github.com/choosewhatulike/sparse-sharing">code</a>
+                                            /
+                                            <a href="https://txsun1997.github.io/slides/sparse_sharing.pdf">slides</a>
+                                            <p></p>
+                                            <div id="abs_sparsesharing" style="display: none;">
+                                                Most existing deep multi-task learning models are based on parameter
+                                                sharing, such as hard sharing, hierarchical sharing, and soft sharing.
+                                                How choosing a suitable sharing mechanism depends on the relations among
+                                                the tasks, which is not easy since it is difficult to understand the
+                                                underlying shared factors among these tasks. In this paper, we propose a
+                                                novel parameter sharing mechanism, named Sparse Sharing. Given multiple
+                                                tasks, our approach automatically finds a sparse sharing structure. We
+                                                start with an over-parameterized base network, from which each task
+                                                extracts a subnetwork. The subnetworks of multiple tasks are partially
+                                                overlapped and trained in parallel. We show that both hard sharing and
+                                                hierarchical sharing can be formulated as particular instances of the
+                                                sparse sharing framework. We conduct extensive experiments on three
+                                                sequence labeling tasks. Compared with single-task models and three
+                                                typical multi-task learning baselines, our proposed approach achieves
+                                                consistent improvement while requiring fewer parameters.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+    </table>
+</body>
