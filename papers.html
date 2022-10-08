@@ -43,43 +43,117 @@
                                     <heading>2022</heading>
                                     <ul>
                                         <li>
-                                            <a href="https://arxiv.org/abs/2205.11200">
-                                                <papertitle>BBTv2: Pure Black-Box Optimization Can Be Comparable to
-                                                    Gradient Descent for Few-Shot Learning</papertitle>
+                                            <a href="https://txsun1997.github.io/papers/bbtv2.pdf">
+                                                <papertitle>BBTv2: Towards a Gradient-Free Future with Large Language
+                                                    Models</papertitle>
                                             </a>
                                             <br>
-                                            <strong>Tianxiang Sun</strong>, Zhengfu He, Hong Qian, Xuanjing Huang,
-                                            Xipeng Qiu
+                                            <strong>Tianxiang Sun</strong>, Zhengfu He, Hong Qian, Yunhua Zhou, Xuanjing
+                                            Huang, Xipeng Qiu
                                             <br>
-                                            arXiv 2205.11200
+                                            <em>EMNLP</em> 2022
                                             <br>
-                                            <a href="https://arxiv.org/pdf/2205.11200.pdf">pdf</a>
+                                            <a href="https://txsun1997.github.io/papers/bbtv2.pdf">pdf</a>
                                             /
                                             <a onclick="return display('abs_bbtv2');">abstract</a>
                                             /
                                             <a href="https://github.com/txsun1997/Black-Box-Tuning">code</a>
                                             <p></p>
                                             <div id="abs_bbtv2" style="display: none;">
-                                                Black-Box Tuning (BBT) is a derivative-free approach to optimize
-                                                continuous prompt tokens prepended to the input of language models.
-                                                Although BBT has achieved comparable performance to full model tuning on
-                                                simple classification tasks under few-shot settings, it requires
-                                                pre-trained prompt embedding to match model tuning on hard tasks (e.g.,
-                                                entailment tasks), and therefore does not completely get rid of the
-                                                dependence on gradients. In this paper we present BBTv2, a pure
-                                                black-box optimization approach that can drive language models to
-                                                achieve comparable results to gradient-based optimization. In
-                                                particular, we prepend continuous prompt tokens to every layer of the
-                                                language model and propose a divide-and-conquer algorithm to alternately
-                                                optimize the prompt tokens at different layers. For the optimization at
-                                                each layer, we perform derivative-free optimization in a low-dimensional
-                                                subspace, which is then randomly projected to the original prompt
-                                                parameter space. Experimental results show that BBTv2 not only
-                                                outperforms BBT by a large margin, but also achieves comparable or even
-                                                better performance than full model tuning and state-of-the-art
-                                                parameter-efficient methods (e.g., Adapter, LoRA, BitFit, etc.) under
-                                                few-shot learning settings, while maintaining much fewer tunable
-                                                parameters.
+                                                Most downstream adaptation methods tune all or part of the parameters of
+                                                pre-trained models (PTMs) through gradient descent, where the tuning
+                                                cost increases linearly with the growth of the model size. By contrast,
+                                                gradient-free methods only require the forward computation of the PTM to
+                                                tune the prompt, retaining the benefits of efficient tuning and
+                                                deployment. Though, past work on gradient-free tuning often introduces
+                                                gradient descent to seek a good initialization and lacks versatility
+                                                across tasks and PTMs. In this paper, we present BBTv2, a pure black-box
+                                                optimization approach, to drive PTMs for few-shot learning. We prepend
+                                                continuous prompt to every layer of the PTM and propose a
+                                                divide-and-conquer algorithm to optimize the prompt at different
+                                                layers alternately. Through extensive experiments across various tasks
+                                                and PTMs, we show that BBTv2 can achieve comparable performance to full
+                                                model tuning and state-of-the-art parameter-efficient methods (e.g.,
+                                                Adapter, LoRA, BitFit, etc.) under few-shot learning settings while
+                                                maintaining much fewer tunable parameters.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://txsun1997.github.io/papers/metric_bias.pdf">
+                                                <papertitle>BERTScore is Unfair: On Social Bias in Language Model-Based
+                                                    Metrics for Text Generation</papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>*, Junliang He*, Xipeng Qiu, Xuanjing Huang
+                                            <br>
+                                            <em>EMNLP</em> 2022
+                                            <br>
+                                            <a href="https://txsun1997.github.io/papers/metric_bias.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_metric_bias');">abstract</a>
+                                            /
+                                            <a href="https://github.com/txsun1997/Metric-Fairness">code</a>
+                                            <p></p>
+                                            <div id="abs_metric_bias" style="display: none;">
+                                                Automatic evaluation metrics are crucial to the development of
+                                                generative systems. In recent years, pre-trained language model (PLM)
+                                                based metrics, such as BERTScore (Zhang et al., 2020), have been
+                                                commonly adopted in various generation tasks. However, it has been
+                                                demonstrated that PLMs encode a range of stereotypical societal
+                                                biases, leading to a concern on the fairness of PLMs as metrics. To that
+                                                end, this work presents the first systematic study on the social bias in
+                                                PLM-based metrics. We demonstrate that popular PLM-based metrics
+                                                exhibit significantly higher social bias than traditional metrics on 6
+                                                sensitive attributes, namely race, gender, religion, physical
+                                                appearance, age, and socioeconomic status. In-depth analysis suggests
+                                                that choosing paradigms (matching, regression, or generation) of the
+                                                metric has a greater impact on fairness than choosing PLMs. In addition,
+                                                we develop debiasing adapters that are injected into PLM layers,
+                                                mitigating bias in PLM-based metrics while retaining high performance
+                                                for evaluating text generation.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://txsun1997.github.io/papers/lpt.pdf">
+                                                <papertitle>Late Prompt Tuning: A Late Prompt Could Be Better Than Many
+                                                    Prompts</papertitle>
+                                            </a>
+                                            <br>
+                                            Xiangyang Liu, <strong>Tianxiang Sun</strong>, Xuanjing Huang, Xipeng Qiu
+                                            <br>
+                                            <em>EMNLP (Findings)</em> 2022
+                                            <br>
+                                            <a href="https://txsun1997.github.io/papers/lpt.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_lpt');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_lpt" style="display: none;">
+                                                Prompt Tuning is a parameter-efficient tuning (PET) method for utilizing
+                                                pre-trained models (PTMs), which simply prepends soft prompts to word
+                                                embeddings and only optimizes the prompts to make PTMs adapt to
+                                                downstream tasks. Although it is the ultimate in terms of parameter
+                                                efficiency and more convenient for PTMs deployment, its performance is
+                                                lower than most other state-of-the-art PET methods. Moreover, the number
+                                                of tunable parameters is reduced by ∼17000× (from 355M to 21K on
+                                                RoBERTaLARGE), but it doesn’t greatly reduce the training costs. In this
+                                                paper, we explore why Prompt Tuning performs poorly and find that it is
+                                                due to the long propagation path from label signals to the soft prompts.
+                                                And we present Late Prompt Tuning (LPT) that can better and more
+                                                efficiently drive PTMs using late prompt. Concretely, we insert soft
+                                                prompts into some intermediate layer of PTMs instead of embedding
+                                                layer or each layer. To take full advantage of the hidden states before
+                                                the prompt insertion layer, we introduce a prompt generator to generate
+                                                independent prompts for each instance using these hidden states. Through
+                                                extensive experiment results across various tasks and PTMs, we show
+                                                that LPT can achieve comparable performance to full model tuning in
+                                                full-data scenario and outperforms the traditional Prompt Tuning by 12.4
+                                                points and Model Tuning by 5 points when only having 100 training
+                                                samples. Besides, its training speed is 2 times and memory cost is
+                                                reduced by 56.6% than Model Tuning.
                                             </div>
                                         </li>
                                     </ul>
