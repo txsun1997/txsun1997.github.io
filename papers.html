@@ -40,10 +40,125 @@
                         <tbody>
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>Preprint</heading>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2210.07565">
+                                                <papertitle>Multi-Task Pre-Training of Modular Prompt for Few-Shot
+                                                    Learning</papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>*, Zhengfu He*, Qin Zhu, Xipeng Qiu, Xuanjing
+                                            Huang
+                                            <br>
+                                            arXiv 2210.07565
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2210.07565.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_mp2');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_mp2" style="display: none;">
+                                                Prompt tuning is a parameter-efficient approach to adapting pre-trained
+                                                language models to downstream tasks. Although prompt tuning has been
+                                                shown to match the performance of full model tuning when training data
+                                                is sufficient, it tends to struggle in few-shot learning settings. In
+                                                this paper, we present Multi-task Pre-trained Modular Prompt (MP2) to
+                                                boost prompt tuning for few-shot learning. MP2 is a set of combinable
+                                                prompts pre-trained on 38 Chinese tasks. On downstream tasks, the
+                                                pre-trained prompts are selectively activated and combined, leading to
+                                                strong compositional generalization to unseen tasks. To bridge the gap
+                                                between pre-training and fine-tuning, we formulate upstream and
+                                                downstream tasks into a unified machine reading comprehension task.
+                                                Extensive experiments under two learning paradigms, i.e., gradient
+                                                descent and black-box tuning, show that MP2 significantly outperforms
+                                                prompt tuning, full model tuning, and prior prompt pre-training methods
+                                                in few-shot settings. In addition, we demonstrate that MP2 can achieve
+                                                surprisingly fast and strong adaptation to downstream tasks by merely
+                                                learning 8 parameters to combine the pre-trained modular prompts.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2109.04641">
+                                                <papertitle>Learning to Teach with Student Feedback</papertitle>
+                                            </a>
+                                            <br>
+                                            Yitao Liu*, <strong>Tianxiang Sun</strong>*, Xipeng Qiu, Xuanjing Huang
+                                            <br>
+                                            arXiv 2109.04641
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2109.04641.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_ikd');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_ikd" style="display: none;">
+                                                Knowledge distillation (KD) has gained much attention due to its
+                                                effectiveness in compressing large-scale pre-trained models. In typical
+                                                KD methods, the small student model is trained to match the soft targets
+                                                generated by the big teacher model. However, the interaction between
+                                                student and teacher is one-way. The teacher is usually fixed once
+                                                trained, resulting in static soft targets to be distilled. This one-way
+                                                interaction leads to the teacher's inability to perceive the
+                                                characteristics of the student and its training progress. To address
+                                                this issue, we propose Interactive Knowledge Distillation (IKD), which
+                                                also allows the teacher to learn to teach from the feedback of the
+                                                student. In particular, IKD trains the teacher model to generate
+                                                specific soft target at each training step for a certain student. Joint
+                                                optimization for both teacher and student is achieved by two iterative
+                                                steps: a course step to optimize student with the soft target of
+                                                teacher, and an exam step to optimize teacher with the feedback of
+                                                student. IKD is a general framework that is orthogonal to most existing
+                                                knowledge distillation methods. Experimental results show that IKD
+                                                outperforms traditional KD methods on various NLP tasks.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2105.13792">
+                                                <papertitle>Early Exiting with Ensemble Internal Classifiers
+                                                </papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>*, Yunhua Zhou*, Xiangyang Liu, Xinyu Zhang,
+                                            Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu
+                                            <br>
+                                            arXiv 2105.13792
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2105.13792.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_ensemble');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_ensemble" style="display: none;">
+                                                As a simple technique to accelerate inference of large-scale pre-trained
+                                                models, early exiting has gained much attention in the NLP community. It
+                                                allows samples to exit early at internal classifiers without passing
+                                                through the entire model. Most existing work usually trains the internal
+                                                classifiers independently and employs an exiting strategy to decide
+                                                whether or not to exit based on the confidence of the current internal
+                                                classifier. However, none of these works takes full advantage of the
+                                                fact that the internal classifiers are trained to solve the same task
+                                                therefore can be used to construct an ensemble. In this paper, we show
+                                                that a novel objective function for the training of the ensemble
+                                                internal classifiers can be naturally induced from the perspective of
+                                                ensemble learning and information theory. The proposed training
+                                                objective consists of two terms: one for accuracy and the other for the
+                                                diversity of the internal classifiers. In contrast, the objective used
+                                                in prior work is exactly the accuracy term of our training objective
+                                                therefore only optimizes the accuracy but not diversity. Further, we
+                                                propose a simple voting-based strategy that considers predictions of all
+                                                the past internal classifiers to infer the correct label and decide
+                                                whether to exit. Experimental results on various NLP tasks show that our
+                                                proposed objective function and voting-based strategy can achieve better
+                                                accuracy-speed trade-offs.
+                                            </div>
+                                        </li>
+                                    </ul>
                                     <heading>2022</heading>
                                     <ul>
                                         <li>
-                                            <a href="https://txsun1997.github.io/papers/bbtv2.pdf">
+                                            <a href="https://arxiv.org/abs/2205.11200">
                                                 <papertitle>BBTv2: Towards a Gradient-Free Future with Large Language
                                                     Models</papertitle>
                                             </a>
@@ -53,7 +168,7 @@
                                             <br>
                                             <em>EMNLP</em> 2022
                                             <br>
-                                            <a href="https://txsun1997.github.io/papers/bbtv2.pdf">pdf</a>
+                                            <a href="https://arxiv.org/pdf/2205.11200.pdf">pdf</a>
                                             /
                                             <a onclick="return display('abs_bbtv2');">abstract</a>
                                             /
@@ -62,26 +177,28 @@
                                             <div id="abs_bbtv2" style="display: none;">
                                                 Most downstream adaptation methods tune all or part of the parameters of
                                                 pre-trained models (PTMs) through gradient descent, where the tuning
-                                                cost increases linearly with the growth of the model size. By contrast,
-                                                gradient-free methods only require the forward computation of the PTM to
-                                                tune the prompt, retaining the benefits of efficient tuning and
-                                                deployment. Though, past work on gradient-free tuning often introduces
-                                                gradient descent to seek a good initialization and lacks versatility
-                                                across tasks and PTMs. In this paper, we present BBTv2, a pure black-box
-                                                optimization approach, to drive PTMs for few-shot learning. We prepend
-                                                continuous prompt to every layer of the PTM and propose a
-                                                divide-and-conquer algorithm to optimize the prompt at different
-                                                layers alternately. Through extensive experiments across various tasks
-                                                and PTMs, we show that BBTv2 can achieve comparable performance to full
-                                                model tuning and state-of-the-art parameter-efficient methods (e.g.,
-                                                Adapter, LoRA, BitFit, etc.) under few-shot learning settings while
-                                                maintaining much fewer tunable parameters.
+                                                cost increases linearly with the growth of the model size.
+                                                By contrast, gradient-free methods only require the forward computation
+                                                of the PTM to tune the prompt, retaining the benefits of efficient
+                                                tuning and deployment.
+                                                Though, past work on gradient-free tuning often introduces gradient
+                                                descent to seek a good initialization of prompt and lacks versatility
+                                                across tasks and PTMs.
+                                                In this paper, we present BBTv2, an improved version of Black-Box
+                                                Tuning, to drive PTMs for few-shot learning.
+                                                We prepend continuous prompts to every layer of the PTM and propose a
+                                                divide-and-conquer gradient-free algorithm to optimize the prompts at
+                                                different layers alternately.
+                                                Extensive experiments across various tasks and PTMs show that BBTv2 can
+                                                achieve comparable performance to full model tuning and state-of-the-art
+                                                parameter-efficient methods (e.g., Adapter, LoRA, BitFit, etc.) under
+                                                few-shot settings while maintaining much fewer tunable parameters.
                                             </div>
                                         </li>
                                     </ul>
                                     <ul>
                                         <li>
-                                            <a href="https://txsun1997.github.io/papers/metric_bias.pdf">
+                                            <a href="https://arxiv.org/abs/2210.07626">
                                                 <papertitle>BERTScore is Unfair: On Social Bias in Language Model-Based
                                                     Metrics for Text Generation</papertitle>
                                             </a>
@@ -90,7 +207,7 @@
                                             <br>
                                             <em>EMNLP</em> 2022
                                             <br>
-                                            <a href="https://txsun1997.github.io/papers/metric_bias.pdf">pdf</a>
+                                            <a href="https://arxiv.org/pdf/2210.07626.pdf">pdf</a>
                                             /
                                             <a onclick="return display('abs_metric_bias');">abstract</a>
                                             /
@@ -98,21 +215,25 @@
                                             <p></p>
                                             <div id="abs_metric_bias" style="display: none;">
                                                 Automatic evaluation metrics are crucial to the development of
-                                                generative systems. In recent years, pre-trained language model (PLM)
-                                                based metrics, such as BERTScore (Zhang et al., 2020), have been
-                                                commonly adopted in various generation tasks. However, it has been
-                                                demonstrated that PLMs encode a range of stereotypical societal
-                                                biases, leading to a concern on the fairness of PLMs as metrics. To that
-                                                end, this work presents the first systematic study on the social bias in
-                                                PLM-based metrics. We demonstrate that popular PLM-based metrics
-                                                exhibit significantly higher social bias than traditional metrics on 6
-                                                sensitive attributes, namely race, gender, religion, physical
-                                                appearance, age, and socioeconomic status. In-depth analysis suggests
-                                                that choosing paradigms (matching, regression, or generation) of the
-                                                metric has a greater impact on fairness than choosing PLMs. In addition,
-                                                we develop debiasing adapters that are injected into PLM layers,
-                                                mitigating bias in PLM-based metrics while retaining high performance
-                                                for evaluating text generation.
+                                                generative systems.
+                                                In recent years, pre-trained language model (PLM) based metrics, such as
+                                                BERTScore, have been commonly adopted in
+                                                various generation tasks.
+                                                However, it has been demonstrated that PLMs encode a range of
+                                                stereotypical societal biases, leading to a concern on the fairness of
+                                                PLMs as metrics.
+                                                To that end, this work presents the first systematic study on the social
+                                                bias in PLM-based metrics.
+                                                We demonstrate that popular PLM-based metrics exhibit significantly
+                                                higher social bias than traditional metrics on 6 sensitive attributes,
+                                                namely race, gender, religion, physical appearance, age, and
+                                                socioeconomic status.
+                                                In-depth analysis suggests that choosing paradigms (matching,
+                                                regression, or generation) of the metric has a greater impact on
+                                                fairness than choosing PLMs.
+                                                In addition, we develop debiasing adapters that are injected into PLM
+                                                layers, mitigating bias in PLM-based metrics while retaining high
+                                                performance for evaluating text generation.
                                             </div>
                                         </li>
                                     </ul>
@@ -130,6 +251,8 @@
                                             <a href="https://txsun1997.github.io/papers/lpt.pdf">pdf</a>
                                             /
                                             <a onclick="return display('abs_lpt');">abstract</a>
+                                            /
+                                            <a href="https://github.com/xyltt/LPT">code</a>
                                             <p></p>
                                             <div id="abs_lpt" style="display: none;">
                                                 Prompt Tuning is a parameter-efficient tuning (PET) method for utilizing
@@ -333,83 +456,6 @@
                             <tr>
                                 <td style="padding:20px;width:100%;vertical-align:middle">
                                     <heading>2021</heading>
-                                    <ul>
-                                        <li>
-                                            <a href="https://arxiv.org/abs/2109.04641">
-                                                <papertitle>Learning to Teach with Student Feedback</papertitle>
-                                            </a>
-                                            <br>
-                                            Yitao Liu*, <strong>Tianxiang Sun</strong>*, Xipeng Qiu, Xuanjing Huang
-                                            <br>
-                                            arXiv 2109.04641
-                                            <br>
-                                            <a href="https://arxiv.org/pdf/2109.04641.pdf">pdf</a>
-                                            /
-                                            <a onclick="return display('abs_ikd');">abstract</a>
-                                            <p></p>
-                                            <div id="abs_ikd" style="display: none;">
-                                                Knowledge distillation (KD) has gained much attention due to its
-                                                effectiveness in compressing large-scale pre-trained models. In typical
-                                                KD methods, the small student model is trained to match the soft targets
-                                                generated by the big teacher model. However, the interaction between
-                                                student and teacher is one-way. The teacher is usually fixed once
-                                                trained, resulting in static soft targets to be distilled. This one-way
-                                                interaction leads to the teacher's inability to perceive the
-                                                characteristics of the student and its training progress. To address
-                                                this issue, we propose Interactive Knowledge Distillation (IKD), which
-                                                also allows the teacher to learn to teach from the feedback of the
-                                                student. In particular, IKD trains the teacher model to generate
-                                                specific soft target at each training step for a certain student. Joint
-                                                optimization for both teacher and student is achieved by two iterative
-                                                steps: a course step to optimize student with the soft target of
-                                                teacher, and an exam step to optimize teacher with the feedback of
-                                                student. IKD is a general framework that is orthogonal to most existing
-                                                knowledge distillation methods. Experimental results show that IKD
-                                                outperforms traditional KD methods on various NLP tasks.
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="https://arxiv.org/abs/2105.13792">
-                                                <papertitle>Early Exiting with Ensemble Internal Classifiers
-                                                </papertitle>
-                                            </a>
-                                            <br>
-                                            <strong>Tianxiang Sun</strong>*, Yunhua Zhou*, Xiangyang Liu, Xinyu Zhang,
-                                            Hao Jiang, Zhao Cao, Xuanjing Huang, Xipeng Qiu
-                                            <br>
-                                            arXiv 2105.13792
-                                            <br>
-                                            <a href="https://arxiv.org/pdf/2105.13792.pdf">pdf</a>
-                                            /
-                                            <a onclick="return display('abs_ensemble');">abstract</a>
-                                            <p></p>
-                                            <div id="abs_ensemble" style="display: none;">
-                                                As a simple technique to accelerate inference of large-scale pre-trained
-                                                models, early exiting has gained much attention in the NLP community. It
-                                                allows samples to exit early at internal classifiers without passing
-                                                through the entire model. Most existing work usually trains the internal
-                                                classifiers independently and employs an exiting strategy to decide
-                                                whether or not to exit based on the confidence of the current internal
-                                                classifier. However, none of these works takes full advantage of the
-                                                fact that the internal classifiers are trained to solve the same task
-                                                therefore can be used to construct an ensemble. In this paper, we show
-                                                that a novel objective function for the training of the ensemble
-                                                internal classifiers can be naturally induced from the perspective of
-                                                ensemble learning and information theory. The proposed training
-                                                objective consists of two terms: one for accuracy and the other for the
-                                                diversity of the internal classifiers. In contrast, the objective used
-                                                in prior work is exactly the accuracy term of our training objective
-                                                therefore only optimizes the accuracy but not diversity. Further, we
-                                                propose a simple voting-based strategy that considers predictions of all
-                                                the past internal classifiers to infer the correct label and decide
-                                                whether to exit. Experimental results on various NLP tasks show that our
-                                                proposed objective function and voting-based strategy can achieve better
-                                                accuracy-speed trade-offs.
-                                            </div>
-                                        </li>
-                                    </ul>
                                     <ul>
                                         <li>
                                             <a href="https://aclanthology.org/2021.acl-long.16/">
