@@ -239,7 +239,7 @@
                                     </ul>
                                     <ul>
                                         <li>
-                                            <a href="https://txsun1997.github.io/papers/lpt.pdf">
+                                            <a href="https://arxiv.org/abs/2210.11292">
                                                 <papertitle>Late Prompt Tuning: A Late Prompt Could Be Better Than Many
                                                     Prompts</papertitle>
                                             </a>
@@ -248,35 +248,32 @@
                                             <br>
                                             <em>EMNLP (Findings)</em> 2022
                                             <br>
-                                            <a href="https://txsun1997.github.io/papers/lpt.pdf">pdf</a>
+                                            <a href="https://arxiv.org/pdf/2210.11292.pdf">pdf</a>
                                             /
                                             <a onclick="return display('abs_lpt');">abstract</a>
                                             /
                                             <a href="https://github.com/xyltt/LPT">code</a>
                                             <p></p>
                                             <div id="abs_lpt" style="display: none;">
-                                                Prompt Tuning is a parameter-efficient tuning (PET) method for utilizing
-                                                pre-trained models (PTMs), which simply prepends soft prompts to word
-                                                embeddings and only optimizes the prompts to make PTMs adapt to
-                                                downstream tasks. Although it is the ultimate in terms of parameter
-                                                efficiency and more convenient for PTMs deployment, its performance is
-                                                lower than most other state-of-the-art PET methods. Moreover, the number
-                                                of tunable parameters is reduced by ∼17000× (from 355M to 21K on
-                                                RoBERTaLARGE), but it doesn’t greatly reduce the training costs. In this
-                                                paper, we explore why Prompt Tuning performs poorly and find that it is
-                                                due to the long propagation path from label signals to the soft prompts.
-                                                And we present Late Prompt Tuning (LPT) that can better and more
-                                                efficiently drive PTMs using late prompt. Concretely, we insert soft
-                                                prompts into some intermediate layer of PTMs instead of embedding
-                                                layer or each layer. To take full advantage of the hidden states before
-                                                the prompt insertion layer, we introduce a prompt generator to generate
-                                                independent prompts for each instance using these hidden states. Through
-                                                extensive experiment results across various tasks and PTMs, we show
-                                                that LPT can achieve comparable performance to full model tuning in
-                                                full-data scenario and outperforms the traditional Prompt Tuning by 12.4
-                                                points and Model Tuning by 5 points when only having 100 training
-                                                samples. Besides, its training speed is 2 times and memory cost is
-                                                reduced by 56.6% than Model Tuning.
+                                                Prompt tuning is a parameter-efficient tuning (PETuning) method for
+                                                utilizing pre-trained models (PTMs) that simply prepends a soft prompt
+                                                to the input and only optimizes the prompt to adapt PTMs to downstream
+                                                tasks. Although it is parameter- and deployment-efficient, its
+                                                performance still lags behind other state-of-the-art PETuning methods.
+                                                Besides, the training cost of prompt tuning is not significantly reduced
+                                                due to the back-propagation through the entire model. Through empirical
+                                                analyses, we shed some light on the lagging performance of prompt tuning
+                                                and recognize a trade-off between the propagation distance from label
+                                                signals to the inserted prompt and the influence of the prompt on model
+                                                outputs. Further, we present Late Prompt Tuning (LPT) that inserts a
+                                                late prompt into an intermediate layer of the PTM instead of the input
+                                                layer or all layers. The late prompt is obtained by a neural prompt
+                                                generator conditioned on the hidden states before the prompt insertion
+                                                layer and therefore is instance-dependent. Through extensive
+                                                experimental results across various tasks and PTMs, we show that LPT can
+                                                achieve competitive performance to full model tuning and other PETuning
+                                                methods under both full-data and few-shot scenarios while possessing
+                                                faster training speed and lower memory cost.
                                             </div>
                                         </li>
                                     </ul>
