@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>MOSS</title>
+
+    <meta name="author" content="Tianxiang Sun">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    <link rel="icon" type="image/jpg" href="../images/fudan_icon.jpg">
+
+    <script type="text/javascript">
+
+        function display(id) {
+            var traget = document.getElementById(id);
+            if (traget.style.display == "none") {
+                traget.style.display = "";
+            } else {
+                traget.style.display = "none";
+            }
+        }  
+    </script>
+
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        var cot = 0;
+        function nex() {
+            if (cot <= 5) {
+                $('.imgs img').eq(cot).animate({ 'margin-left': '-505px' }, 500);
+                cot++;
+            }
+        }
+        function pre() {
+            if (cot > 0) {
+                cot--;
+                $('.imgs img').eq(cot).animate({ 'margin-left': '0' }, 500);
+            }
+        }  
+    </script>
+</head>
+
+<body>
+    <table
+        style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+            <tr style="padding:0px">
+                <td style="padding:0px">
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr style="padding:0px">
+                                <td style="padding:2.5%;width:100%;vertical-align:middle">
+                                    <p style="text-align:center">
+                                        <name>MOSS</name>
+                                    </p>
+                                    <p><b>Authors</b>: <a href="https://txsun1997.github.io/">Tianxiang Sun</a>
+                                        (txsun19@fudan.edu.cn) and <a href="https://xpqiu.github.io/">Xipeng Qiu</a>
+                                        (xpqiu@fudan.edu.cn), Fudan University
+                                    </p>
+                                    <p><b>Contributors</b>: Tianxiang Sun, Xiaotian Zhang, Zhengfu He,
+                                        Hang Yan, Xingjian Zhao, Ke Chen, Xiangyang Liu, Xipeng Qiu
+                                    </p>
+                                    <p>
+                                        <b>Acknowledgement</b>: <a
+                                            href="https://github.com/tensorchord">TensorChord</a>, <a
+                                            href="https://github.com/mosecorg/mosec">Mosec</a>
+                                    </p>
+                                    <p>
+                                        Released on Feb 20, 2023.
+                                    </p>
+                                    <p style="text-align:center">
+                                        <a href="https://moss.fastnlp.top/">Try MOSS</a> &nbsp/&nbsp
+                                        <a href="https://survey.moss.fastnlp.top/s/Ntd4eG">Joint the Waitlist</a>
+                                        &nbsp/&nbsp
+                                        <a href="https://github.com/txsun1997/MOSS">Code</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>Introduction</heading>
+                                    <p>
+                                        We are excited to introduce MOSS, a conversational language model like ChatGPT.
+                                        MOSS is capable of following users' instructions to perform various natural
+                                        language tasks including question answering, generating text, summarzing text,
+                                        generating code, etc. MOSS is also able to challenge incorrect premises, and
+                                        reject inappropriate requests. During the research preview, usage of MOSS is
+                                        free and we will collect users' feedback with their permission. Try it now at <a
+                                            href="https://moss.fastnlp.top/">moss.fastnlp.top</a>.
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>What can MOSS do?</heading>
+                                    <p>
+                                        MOSS is designed to be helpful, honest, and harmless (HHH):
+                                    </p>
+                                    <ul>
+                                        <li> <b>Helpful</b>: Try to help people with language tasks as much as possible
+                                            to improve their productivity.</li>
+                                        <li> <b>Honest</b>: Generate truthful answers to human questions.</li>
+                                        <li> <b>Harmless</b>: Abide by human ethics and morality, and do not produce
+                                            biased or possibly harmful responses.</li>
+                                    </ul>
+                                    <p>
+                                        Below are some samples generated by MOSS:
+                                    </p>
+                                    <div style="width:500px;margin:auto;overflow:hidden">
+                                        <div class="imgs" style="width:50000px;">
+                                            <img src="../images/moss_sample_1.png" width="500" />
+                                            <img src="../images/moss_sample_2.png" width="500" />
+                                            <img src="../images/moss_sample_3.png" width="500" />
+                                            <img src="../images/moss_sample_4.png" width="500" />
+                                            <img src="../images/moss_sample_5.png" width="500" />
+                                            <img src="../images/moss_sample_6.png" width="500" />
+                                            <img src="../images/moss_sample_7.png" width="500" />
+                                        </div>
+                                        <div>
+                                            <div onclick="pre()" style="float:left;cursor:pointer">
+                                                <font color="grey">Previous Sample</font>
+                                            </div>
+                                            <div onclick="nex()" style="float:right;cursor:pointer">
+                                                <font color="grey">Next Sample</font>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        What are differences between MOSS and ChatGPT?
+                                    </p>
+                                    <ul>
+                                        <li> The number of parameters of MOSS is much fewer than ChatGPT.</li>
+                                        <li> MOSS learns by talking to human and other AI models, while ChatGPT is
+                                            trained with Reinforcement Learning from Human Feedback (RLHF).</li>
+                                        <li> MOSS will be open-sourced to facilitate future research but ChatGPT may
+                                            not.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>Try MOSS and send feedback</heading>
+                                    <p>
+                                        With limited computing resources, we are unable to provide low-latency service
+                                        of MOSS for too many users. During the research preview, we will invite about
+                                        tens of thousands of users to try MOSS. Please fill out a simple <a
+                                            href="https://survey.moss.fastnlp.top/s/Ntd4eG">survey</a> to apply for
+                                        using MOSS. We will send an invitation code, which is required by registering an
+                                        account, to your email you filled out in the survey.
+                                    </p>
+                                    <p>
+                                        After receiving the invitation code, you can register an account and sign in the
+                                        system. Enjoy your talk with MOSS and don't forget to click "like" or "dislike"
+                                        to send your feedback! If you are not satisfied with the response generated by
+                                        MOSS, try using "Regenerate" and get another response.
+                                    </p>
+                                    <video width="800" controls autoplay>
+                                        <source src="../images/moss_demo.webm" type="video/webm">
+                                    </video>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:100%;vertical-align:middle">
+                                    <heading>Limitations</heading>
+                                    <p>
+                                        Although MOSS has acquired some capabilities of ChatGPT, we know that many
+                                        limitations are remained and MOSS still lags far behind ChatGPT due to the lack
+                                        of high-quality data, computing resources, and the model capacity. But we will
+                                        constantly improve our model based on the valuable user feedback (with the
+                                        permission) by providing an accessible interface to MOSS.
+                                    </p>
+                                    <ul>
+                                        <li> Due to the limited multilingual corpus in the training data, MOSS performs
+                                            poorly on understanding and generating text in languages other than English.
+                                            We are currently working on an improved version to improve its
+                                            language skills in Chinese.</li>
+                                        <li> Due to the relatively small model capacity, MOSS does not contain
+                                            sufficient world knowledge. As a result, some responses generated by MOSS
+                                            may contain misleading or false information.</li>
+                                        <li> Sometimes MOSS performs in a roundabout way or even fails to follow the
+                                            instruction. In that case, users may need to regenerate for several times or
+                                            modify the prompt to get a satisfactory response. We are actively improving
+                                            its ability of instruction-following and so as the productivity.</li>
+                                        <li> Sometimes MOSS can be prompted to generate unethical or harmful responses.
+                                            Please help us mitigate such behaviors by clicking the "dislike" and we will
+                                            update the model in the next version.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table
+                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:20px;width:30%;vertical-align:middle">
+                                    <script type='text/javascript' id='clustrmaps'
+                                        src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=aBj-4SCzZBu24IVENbl19cAetpLjEP1RCaSORs6c7A8'></script>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+    </table>
+</body>
+
+</html>
