@@ -81,6 +81,8 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <ul>
+                    <li> <b>[Feb. 2023]</b> We are excited to release MOSS, a conversational language model. Try it now
+                      at <a href="https://moss.fastnlp.top/">moss.fastnlp.top</a>.</li>
                     <li> <b>[Oct. 2022]</b> Three papers accepted to EMNLP 2022!</li>
                     <li> <b>[Aug. 2022]</b> I gave a talk on LMaaS and black-box tuning at <a
                         href="http://www.aitime.cn/">AI Time</a>.</li>
@@ -424,7 +426,7 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Resources</heading>
+                  <heading>Projects & Resources</heading>
                 </td>
               </tr>
             </tbody>
@@ -432,6 +434,41 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/moss.png' width="190">
+                    </div>
+                    <img src='images/moss.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="http://moss.fastnlp.top/">
+                    <papertitle>MOSS: A Conversational Language Model</papertitle>
+                  </a>
+                  <br>
+                  project led by <strong>Tianxiang Sun</strong>
+                  <p>
+                    MOSS is a conversational language model like ChatGPT. It is capable of following users' instructions
+                    to perform various natural language tasks including question answering, generating text, summarzing
+                    text, generating code, etc. MOSS is also able to challenge incorrect premises, and reject
+                    inappropriate requests. Here is a brief <a
+                      href="https://txsun1997.github.io/blogs/moss.html">introduction</a> to MOSS.
+                  </p>
+                </td>
+              </tr>
+
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
@@ -466,7 +503,7 @@
                 </td>
               </tr>
 
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+              <!-- <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
@@ -498,9 +535,9 @@
                     models and early exiting models.
                   </p>
                 </td>
-              </tr>
+              </tr> -->
 
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+              <!-- <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
@@ -532,7 +569,7 @@
                     paradigm by reformulating the task.
                   </p>
                 </td>
-              </tr>
+              </tr> -->
 
             </tbody>
           </table>
