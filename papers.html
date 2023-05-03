@@ -43,81 +43,6 @@
                                     <heading>Preprint</heading>
                                     <ul>
                                         <li>
-                                            <a href="https://arxiv.org/abs/2211.15029">
-                                                <papertitle>DiffusionBERT: Improving Generative Masked Language Models
-                                                    with Diffusion Models</papertitle>
-                                            </a>
-                                            <br>
-                                            Zhengfu He*, <strong>Tianxiang Sun</strong>*, Kuanning Wang, Xuanjing Huang,
-                                            Xipeng Qiu
-                                            <br>
-                                            arXiv 2211.15029
-                                            <br>
-                                            <a href="https://arxiv.org/pdf/2211.15029">pdf</a>
-                                            /
-                                            <a onclick="return display('abs_db');">abstract</a>
-                                            <p></p>
-                                            <div id="abs_db" style="display: none;">
-                                                We present DiffusionBERT, a new generative masked language model based
-                                                on discrete diffusion models. Diffusion models and many pre-trained
-                                                language models have a shared training objective, i.e., denoising,
-                                                making it possible to combine the two powerful models and enjoy the best
-                                                of both worlds. On the one hand, diffusion models offer a promising
-                                                training strategy that helps improve the generation quality. On the
-                                                other hand, pre-trained denoising language models (e.g., BERT) can be
-                                                used as a good initialization that accelerates convergence. We explore
-                                                training BERT to learn the reverse process of a discrete diffusion
-                                                process with an absorbing state and elucidate several designs to improve
-                                                it. First, we propose a new noise schedule for the forward diffusion
-                                                process that controls the degree of noise added at each step based on
-                                                the information of each token. Second, we investigate several designs of
-                                                incorporating the time step into BERT. Experiments on unconditional text
-                                                generation demonstrate that DiffusionBERT achieves significant
-                                                improvement over existing diffusion models for text (e.g., D3PM and
-                                                Diffusion-LM) and previous generative masked language models in terms of
-                                                perplexity and BLEU score.
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
-                                            <a href="https://arxiv.org/abs/2210.07565">
-                                                <papertitle>Multi-Task Pre-Training of Modular Prompt for Few-Shot
-                                                    Learning</papertitle>
-                                            </a>
-                                            <br>
-                                            <strong>Tianxiang Sun</strong>*, Zhengfu He*, Qin Zhu, Xipeng Qiu, Xuanjing
-                                            Huang
-                                            <br>
-                                            arXiv 2210.07565
-                                            <br>
-                                            <a href="https://arxiv.org/pdf/2210.07565.pdf">pdf</a>
-                                            /
-                                            <a onclick="return display('abs_mp2');">abstract</a>
-                                            <p></p>
-                                            <div id="abs_mp2" style="display: none;">
-                                                Prompt tuning is a parameter-efficient approach to adapting pre-trained
-                                                language models to downstream tasks. Although prompt tuning has been
-                                                shown to match the performance of full model tuning when training data
-                                                is sufficient, it tends to struggle in few-shot learning settings. In
-                                                this paper, we present Multi-task Pre-trained Modular Prompt (MP2) to
-                                                boost prompt tuning for few-shot learning. MP2 is a set of combinable
-                                                prompts pre-trained on 38 Chinese tasks. On downstream tasks, the
-                                                pre-trained prompts are selectively activated and combined, leading to
-                                                strong compositional generalization to unseen tasks. To bridge the gap
-                                                between pre-training and fine-tuning, we formulate upstream and
-                                                downstream tasks into a unified machine reading comprehension task.
-                                                Extensive experiments under two learning paradigms, i.e., gradient
-                                                descent and black-box tuning, show that MP2 significantly outperforms
-                                                prompt tuning, full model tuning, and prior prompt pre-training methods
-                                                in few-shot settings. In addition, we demonstrate that MP2 can achieve
-                                                surprisingly fast and strong adaptation to downstream tasks by merely
-                                                learning 8 parameters to combine the pre-trained modular prompts.
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                        <li>
                                             <a href="https://arxiv.org/abs/2109.04641">
                                                 <papertitle>Learning to Teach with Student Feedback</papertitle>
                                             </a>
@@ -190,6 +115,161 @@
                                                 whether to exit. Experimental results on various NLP tasks show that our
                                                 proposed objective function and voting-based strategy can achieve better
                                                 accuracy-speed trade-offs.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <heading>2023</heading>
+                                    <ul>
+                                        <li>
+                                            <a href="https://txsun1997.github.io/">
+                                                <papertitle>Improving Contrastive Learning of Sentence Embeddings from
+                                                    AI Feedback</papertitle>
+                                            </a>
+                                            <br>
+                                            Qinyuan Cheng, Xiaogui Yang, <strong>Tianxiang Sun</strong>, Linyang Li,
+                                            Xipeng Qiu
+                                            <br>
+                                            <em>ACL (Findings)</em> 2023
+                                            <br>
+                                            <a href="https://txsun1997.github.io/">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_claif');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_claif" style="display: none;">
+                                                Contrastive learning has become a popular approach in natural language
+                                                processing, particularly for the learning of sentence embeddings.
+                                                However, the discrete nature of natural language makes it difficult to
+                                                ensure the quality of positive and negative sample pairs generated
+                                                through data augmentation methods. Although supervised contrastive
+                                                learning can produce more accurate sample pairs with human feedback
+                                                labels, it still lacks fine-grained training signals. In this paper, we
+                                                propose to improve Contrastive Learning of sentence embeddings from AI
+                                                Feedback (CLAIF). Our method utilizes AI feedback from large pre-trained
+                                                language models (LLMs) to construct sample pairs with fine-grained
+                                                sample similarity scores to improve contrastive learning. Besides, we
+                                                combine human feedback and AI feedback to provide better supervision
+                                                signals for supervised contrastive learning of sentence embeddings.
+                                                Experimental results show that our method achieves state-of-the-art
+                                                performance on several semantic textual similarity (STS) and transfer
+                                                learning tasks compared to other unsupervised and supervised contrastive
+                                                learning methods.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://txsun1997.github.io/">
+                                                <papertitle>CodeIE: Large Code Generation Models are Better Few-Shot
+                                                    Information Extractors</papertitle>
+                                            </a>
+                                            <br>
+                                            Peng Li*, <strong>Tianxiang Sun</strong>*, Qiong Tang, Hang Yan, Yuanbin Wu,
+                                            Xuanjing Huang, Xipeng Qiu
+                                            <br>
+                                            <em>ACL</em> 2023
+                                            <br>
+                                            <a href="https://txsun1997.github.io/">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_codeie');">abstract</a>
+                                            <p></p>
+                                            <div id="abs_codeie" style="display: none;">
+                                                Large language models (LLMs) pre-trained on massive corpora have
+                                                demonstrated impressive few-shot learning ability on many NLP tasks. A
+                                                common practice is to recast the task into a text-to-text format such
+                                                that generative LLMs of natural language (NL-LLMs) like GPT-3 can be
+                                                prompted to solve it. However, it is non-trivial to perform information
+                                                extraction (IE) tasks with NL-LLMs since the output of the IE task is
+                                                usually structured and therefore is hard to be converted into plain
+                                                text. In this paper, we propose to recast the structured output in the
+                                                form of code instead of natural language and utilize generative LLMs of
+                                                code (Code-LLMs) such as Codex to perform IE tasks, in particular, named
+                                                entity recognition and relation extraction. In contrast to NL-LLMs, we
+                                                show that Code-LLMs can be well-aligned with these IE tasks by designing
+                                                code-style prompts and formulating these IE tasks as code generation
+                                                tasks. Experiment results on seven benchmarks show that our method
+                                                consistently outperforms fine-tuning moderate-size pre-trained models
+                                                specially designed for IE tasks (e.g., UIE) and prompting NL-LLMs under
+                                                few-shot settings. We further conduct a series of in-depth analyses to
+                                                demonstrate the merits of leveraging Code-LLMs for IE tasks.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2211.15029">
+                                                <papertitle>DiffusionBERT: Improving Generative Masked Language Models
+                                                    with Diffusion Models</papertitle>
+                                            </a>
+                                            <br>
+                                            Zhengfu He*, <strong>Tianxiang Sun</strong>*, Kuanning Wang, Xuanjing Huang,
+                                            Xipeng Qiu
+                                            <br>
+                                            <em>ACL</em> 2023
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2211.15029">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_db');">abstract</a>
+                                            /
+                                            <a href="https://github.com/Hzfinfdu/Diffusion-BERT">code</a>
+                                            <p></p>
+                                            <div id="abs_db" style="display: none;">
+                                                We present DiffusionBERT, a new generative masked language model based
+                                                on discrete diffusion models. Diffusion models and many pre-trained
+                                                language models have a shared training objective, i.e., denoising,
+                                                making it possible to combine the two powerful models and enjoy the best
+                                                of both worlds. On the one hand, diffusion models offer a promising
+                                                training strategy that helps improve the generation quality. On the
+                                                other hand, pre-trained denoising language models (e.g., BERT) can be
+                                                used as a good initialization that accelerates convergence. We explore
+                                                training BERT to learn the reverse process of a discrete diffusion
+                                                process with an absorbing state and elucidate several designs to improve
+                                                it. First, we propose a new noise schedule for the forward diffusion
+                                                process that controls the degree of noise added at each step based on
+                                                the information of each token. Second, we investigate several designs of
+                                                incorporating the time step into BERT. Experiments on unconditional text
+                                                generation demonstrate that DiffusionBERT achieves significant
+                                                improvement over existing diffusion models for text (e.g., D3PM and
+                                                Diffusion-LM) and previous generative masked language models in terms of
+                                                perplexity and BLEU score.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://arxiv.org/abs/2210.07565">
+                                                <papertitle>Multi-Task Pre-Training of Modular Prompt for Few-Shot
+                                                    Learning</papertitle>
+                                            </a>
+                                            <br>
+                                            <strong>Tianxiang Sun</strong>*, Zhengfu He*, Qin Zhu, Xipeng Qiu, Xuanjing
+                                            Huang
+                                            <br>
+                                            <em>ACL</em> 2023
+                                            <br>
+                                            <a href="https://arxiv.org/pdf/2210.07565.pdf">pdf</a>
+                                            /
+                                            <a onclick="return display('abs_mp2');">abstract</a>
+                                            /
+                                            <a href="https://github.com/Hzfinfdu/MPMP">code</a>
+                                            <p></p>
+                                            <div id="abs_mp2" style="display: none;">
+                                                Prompt tuning is a parameter-efficient approach to adapting pre-trained
+                                                language models to downstream tasks. Although prompt tuning has been
+                                                shown to match the performance of full model tuning when training data
+                                                is sufficient, it tends to struggle in few-shot learning settings. In
+                                                this paper, we present Multi-task Pre-trained Modular Prompt (MP2) to
+                                                boost prompt tuning for few-shot learning. MP2 is a set of combinable
+                                                prompts pre-trained on 38 Chinese tasks. On downstream tasks, the
+                                                pre-trained prompts are selectively activated and combined, leading to
+                                                strong compositional generalization to unseen tasks. To bridge the gap
+                                                between pre-training and fine-tuning, we formulate upstream and
+                                                downstream tasks into a unified machine reading comprehension task.
+                                                Extensive experiments under two learning paradigms, i.e., gradient
+                                                descent and black-box tuning, show that MP2 significantly outperforms
+                                                prompt tuning, full model tuning, and prior prompt pre-training methods
+                                                in few-shot settings. In addition, we demonstrate that MP2 can achieve
+                                                surprisingly fast and strong adaptation to downstream tasks by merely
+                                                learning 8 parameters to combine the pre-trained modular prompts.
                                             </div>
                                         </li>
                                     </ul>
