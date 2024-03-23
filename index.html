@@ -44,14 +44,15 @@
                   <p>I am a 5th-year Ph.D. student at the <a href="https://nlp.fudan.edu.cn/">NLP Lab</a> at <a
                       href="https://www.fudan.edu.cn/en/">Fudan University</a>, advised by Prof. <a
                       href="https://xpqiu.github.io/">Xipeng Qiu</a> and Prof. <a
-                      href="https://nlp.fudan.edu.cn/28702/list.htm">Xuanjing Huang</a>. I am also interning at <a
-                      href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>. Previously, I had an internship at <a
-                      href="https://damo.alibaba.com/">Alibaba DAMO Academy</a> and <a
-                      href="https://www.amazonaws.cn/en/ailab/">Amazon Shanghai AI Lab</a>.
+                      href="https://nlp.fudan.edu.cn/28702/list.htm">Xuanjing Huang</a>. Previously, I had an internship
+                    at <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a> (2023), <a
+                      href="https://damo.alibaba.com/">Alibaba DAMO Academy</a> (2022), and <a
+                      href="https://www.amazonaws.cn/en/ailab/">Amazon Shanghai AI Lab</a> (2019-2020).
                   </p>
                   <p>
                     My research interests lie in the field of Machine Learning and Natural Language Processing,
-                    particularly in pre-trained language models and their optimization-, inference-, and data-efficient
+                    particularly in pre-trained large language models and their optimization-, inference-, and
+                    data-efficient
                     methods. Reach out to me over email: <a href="mailto:txsun19@fudan.edu.cn">txsun19@fudan.edu.cn</a>.
                   </p>
                   <p style="text-align:center">
@@ -60,7 +61,7 @@
                     &nbsp/&nbsp
                     <a href="https://github.com/txsun1997">Github</a> &nbsp/&nbsp
                     <a href="https://twitter.com/TianxiangSun">Twitter</a> &nbsp/&nbsp
-                    <a href="https://www.zhihu.com/people/SUN-Tianxiang">Zhihu</a>
+                    <a href="https://open-moss.com/">OpenMOSS</a>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:40%;max-width:40%">
@@ -70,6 +71,7 @@
               </tr>
             </tbody>
           </table>
+
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
@@ -77,11 +79,11 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <ul>
+                    <li> <b>[Mar. 2024]</b> Excited to announce <a href="https://open-moss.com/en/">OpenMOSS</a>!</li>
                     <li> <b>[May 2023]</b> Four papers accepted to ACL 2023!</li>
                     <li> <b>[Feb. 2023]</b> We are excited to release <a
                         href="https://txsun1997.github.io/blogs/moss.html">MOSS</a>, a conversational language model.
-                      Try it now
-                      at <a href="https://moss.fastnlp.top/">moss.fastnlp.top</a>.</li>
+                    </li>
                     <li> <b>[Oct. 2022]</b> Three papers accepted to EMNLP 2022!</li>
                     <li> <b>[Aug. 2022]</b> I gave a talk on LMaaS and black-box tuning at <a
                         href="http://www.aitime.cn/">AI Time</a>.</li>
@@ -144,11 +146,9 @@
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Selected Publications (</heading><a href="https://txsun1997.github.io/papers">
-                    <heading>All Papers</heading>
-                  </a>
-                  <heading>)</heading>
+                  <heading>Highlight Papers</heading>
                   <p>
+                    Full list of papers can be found at 
                     <a href="https://scholar.google.com/citations?user=puHFkM0AAAAJ&hl=en">Google Scholar</a> /
                     <a href="https://www.semanticscholar.org/author/Tianxiang-Sun/153345698">Semantic Scholar</a> / <a
                       href="https://dblp.org/pid/254/1189.html">DBLP</a> / <a
@@ -164,6 +164,92 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/OthelloGPT.jpg' width="190">
+                    </div>
+                    <img src='images/OthelloGPT.jpg' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://arxiv.org/abs/2402.12201">
+                    <papertitle>Dictionary Learning Improves Patch-Free Circuit Discovery in Mechanistic
+                      Interpretability: A Case Study on Othello-GPT</papertitle>
+                  </a>
+                  <br>
+                  Zhengfu He, Xuyang Ge, Qiong Tang, <strong>Tianxiang Sun</strong>, Qinyuan Cheng, Xipeng Qiu
+                  <br>
+                  <em>arXiv</em>, 2402.12201 &nbsp
+                  <br>
+                  <a href="https://arxiv.org/pdf/2402.12201.pdf">pdf</a>
+                  /
+                  <a href="https://open-moss.com/en/DictCircuits_Othello/">blog on OpenMOSS</a>
+                  <p></p>
+                  <p>
+                    Sparse dictionary learning has been a rapidly growing technique in mechanistic interpretability to
+                    attack superposition and extract more human-understandable features from model activations. We ask a
+                    further question based on the extracted more monosemantic features: How do we recognize circuits
+                    connecting the enormous amount of dictionary features? We propose a circuit discovery framework
+                    alternative to activation patching.
+                  </p>
+                </td>
+              </tr>
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/IDK.jpg' width="190">
+                    </div>
+                    <img src='images/IDK.jpg' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://arxiv.org/abs/2401.13275">
+                    <papertitle>Can AI Assistants Know What They Don't Know?</papertitle>
+                  </a>
+                  <br>
+                  Qinyuan Cheng*, <strong>Tianxiang Sun</strong>*, Xiangyang Liu, Wenwei Zhang, Zhangyue Yin, Shimin Li,
+                  Linyang Li, Zhengfu He, Kai Chen, Xipeng Qiu
+                  <br>
+                  <em>arXiv</em>, 2401.13275 &nbsp
+                  <br>
+                  <a href="https://arxiv.org/pdf/2401.13275.pdf">pdf</a>
+                  /
+                  <a href="https://github.com/OpenMOSS/Say-I-Dont-Know">code</a>
+                  /
+                  <a href="https://open-moss.com/en/knowledge-boundary/">blog on OpenMOSS</a>
+                  <p></p>
+                  <p>
+                    We ask the question "Can AI assistants know what they don't know and express them through natural
+                    language?" To answer this question, we construct a model-specific "I don't know" (Idk) dataset for
+                    an assistant, which contains its known and unknown questions, based on existing open-domain question
+                    answering datasets. Then we align the assistant with its corresponding Idk dataset and observe
+                    whether it can refuse to answer its unknown questions after alignment.
+                  </p>
+                </td>
+              </tr>
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
@@ -575,25 +661,25 @@
           </table>
 
           <table
-          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <heading>Awards</heading>
-                <ul>
-                  <li> ByteDance Scholarships (10 winners in China, 2023)</li>
-                  <li> National Scholarships (Ministry of Education, China, 2023)</li>
-                  <li> WAIC Yunfan Award - Rising Star (15 winners across the world, 2023)</li>
-                  <li> Fudan Academic Star (10 winners across STEM graduate schools, 2023)</li>
-                  <li> Most Influential Paper Award of Sci. China Tech Sci. (2022) </li>
-                  <li> National Scholarships (Ministry of Education, China, 2020)</li>
-                  <li> Outstanding Graduate (associated with Xidian University, 2019)</li>
-                  <li> First Prize in China High School Biology Olympiad (2014)</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Awards</heading>
+                  <ul>
+                    <li> ByteDance Scholarships (13 winners in China, 2023)</li>
+                    <li> National Scholarships (Ministry of Education, China, 2023)</li>
+                    <li> WAIC Yunfan Award - Rising Star (15 winners across the world, 2023)</li>
+                    <li> Fudan Academic Star (10 winners across STEM graduate schools, 2023)</li>
+                    <li> Most Influential Paper Award of Sci. China Tech Sci. (2022) </li>
+                    <li> National Scholarships (Ministry of Education, China, 2020)</li>
+                    <li> Outstanding Graduate (associated with Xidian University, 2019)</li>
+                    <li> First Prize in China High School Biology Olympiad (2014)</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -620,7 +706,7 @@
                     <li> AAAI (2021)</li>
                     <li> IJCAI (2021)</li>
                   </ul>
-                  <em>Will not submit papers or reviews to AAAI/IJCAI since 2022 :)</em>
+                  <!-- <em>Will not submit papers or reviews to AAAI/IJCAI since 2022 :)</em> -->
                 </td>
               </tr>
             </tbody>
