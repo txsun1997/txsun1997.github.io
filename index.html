@@ -148,7 +148,7 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>Highlighted Papers</heading>
                   <p>
-                    Full list of papers can be found at 
+                    Full list of papers can be found at
                     <a href="https://scholar.google.com/citations?user=puHFkM0AAAAJ&hl=en">Google Scholar</a> /
                     <a href="https://www.semanticscholar.org/author/Tianxiang-Sun/153345698">Semantic Scholar</a> / <a
                       href="https://dblp.org/pid/254/1189.html">DBLP</a> / <a
@@ -164,6 +164,47 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/data_mixing_law.jpg' width="190">
+                    </div>
+                    <img src='images/data_mixing_law.jpg' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://arxiv.org/abs/2403.16952">
+                    <papertitle>Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance
+                    </papertitle>
+                  </a>
+                  <br>
+                  Jiasheng Ye, Peiju Liu, <strong>Tianxiang Sun</strong>, Yunhua Zhou, Jun Zhan, Xipeng Qiu
+                  <br>
+                  <em>arXiv</em>, 2403.16952 &nbsp
+                  <br>
+                  <a href="https://arxiv.org/pdf/2403.16952">pdf</a>
+                  /
+                  <a href="https://open-moss.com/en/data-mixing-laws/">blog on OpenMOSS</a>
+                  <p></p>
+                  <p>
+                    We discover the quantitative predictability of model performance regarding the mixture proportions
+                    in function forms, which we refer to as the data mixing laws. Fitting such functions on sample
+                    mixtures unveils model performance on unseen mixtures before actual runs, thus guiding the selection
+                    of an ideal data mixture.
+                  </p>
+                </td>
+              </tr>
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
@@ -233,7 +274,7 @@
                   Qinyuan Cheng*, <strong>Tianxiang Sun</strong>*, Xiangyang Liu, Wenwei Zhang, Zhangyue Yin, Shimin Li,
                   Linyang Li, Zhengfu He, Kai Chen, Xipeng Qiu
                   <br>
-                  <em>arXiv</em>, 2401.13275 &nbsp
+                  <em>ICML</em>, 2024 &nbsp
                   <br>
                   <a href="https://arxiv.org/pdf/2401.13275.pdf">pdf</a>
                   /
